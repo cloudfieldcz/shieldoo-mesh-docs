@@ -1,1 +1,21 @@
 remote_theme: just-the-docs/just-the-docs
+logo: "/assets/images/logo.png"
+search_enabled: true
+
+# Google Analytics Tracking
+# TODO when proper url is set
+#ga_tracking: UA-5555555-55
+#ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true by default)
+
+# Aux links for the upper right navigation
+aux_links:
+  "Shieldoo.io":
+    - "https://www.shieldoo.io/"
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
