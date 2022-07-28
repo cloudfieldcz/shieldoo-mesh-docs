@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+# Shieldoo Mesh
+Shieldoo Mesh is a private secure network. 
 
-You can use the [editor on GitHub](https://github.com/cloudfieldcz/shieldoo-mesh-docs/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+It is software defined end-to-end encrypted peer-to-peer overlay network. Which means that you connect your devices securely over the Internet, but they can talk using just your local Wifi to exchange data when possible.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The network is build upon [Nebula](https://github.com/slackhq/nebula) by [Slack](https://github.com/slackhq). The underlying technology is lenghty to set up and it needs some experts to do the setup properly. Shieldoo Mesh comes with a slick UI, automatic deployment in cloud and many more features that are missing from [Nebula](https://github.com/slackhq/nebula) itself. 
 
-### Markdown
+It brings to the users
+- Non-expert: Ability to set up in a few clicks.
+- Expert: Simplicity, speed and comfort.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cloudfieldcz/shieldoo-mesh-docs/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Please find the user docs
+- Basic setup
+- Expert mode
