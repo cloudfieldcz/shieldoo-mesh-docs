@@ -1,5 +1,7 @@
+name: Shieldoo Mesh
+description: Software defined private secure network
 remote_theme: just-the-docs/just-the-docs
-logo: "/assets/images/logo.png"
+logo: "/images/logo.png"
 search_enabled: true
 
 # Google Analytics Tracking
