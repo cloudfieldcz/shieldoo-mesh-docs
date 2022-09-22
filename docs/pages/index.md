@@ -18,5 +18,5 @@ It brings to the users
 - Expert: Simplicity, speed and comfort.
 
 Please find the user docs
-- Basic setup
-- Expert mode
+- Basic User
+- Admin

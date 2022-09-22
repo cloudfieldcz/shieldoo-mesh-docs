@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Subpage 2
+title: Connect Me
+
 parent: Basic User
 ---
 
-### This is a subpage 2
+# Connect Me
