@@ -2,7 +2,7 @@
 layout: default
 title: Introduction
 nav_order: 1
-description: "Intorudction to Shieldoo Mesh."
+description: "Introduction to Shieldoo Mesh."
 permalink: /
 ---
 
@@ -18,5 +18,5 @@ Shieldoo Mesh brings the following benefits to its users:
 - For experts - Simplicity, speed and comfort.
 
 To learn about Shieldoo Mesh in detail, see the following role-specific chapters:
-- [Basic User](./pages/basic/#basic-user)
-- [Admin](./pages/admin/#admin)
+- [Basic User](./basic_user/#basic-user)
+- [Admin](./admin/#admin)
