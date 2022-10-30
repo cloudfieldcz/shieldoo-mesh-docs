@@ -2,7 +2,7 @@
 layout: default
 title: Examples
 parent: Admin
-nav_order: 6
+nav_order: 8
 permalink: /examples/
 ---
 
