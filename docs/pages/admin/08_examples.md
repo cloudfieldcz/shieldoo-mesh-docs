@@ -2,6 +2,8 @@
 layout: default
 title: Examples
 parent: Admin
+nav_order: 8
+permalink: /examples/
 ---
 
 # Examples

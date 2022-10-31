@@ -1,22 +1,22 @@
 ---
 layout: default
-title: Home
+title: Introduction
 nav_order: 1
-description: "Shieldoo Mesh home."
+description: "Introduction to Shieldoo Mesh."
 permalink: /
 ---
 
 # Shieldoo Mesh
 Shieldoo Mesh is a private secure network. 
 
-It is software defined end-to-end encrypted peer-to-peer overlay network. Which means that you connect your devices securely over the Internet, but they can talk using just your local Wifi to exchange data when possible.
+It is an end-to-end encrypted peer-to-peer overlay network. That means you connect your devices securely over the Internet, allowing them to communicate with each other using just your local Wi-Fi.
 
-The network is build upon [Nebula](https://github.com/slackhq/nebula) by [Slack](https://github.com/slackhq). The underlying technology is lenghty to set up and it needs some experts to do the setup properly. Shieldoo Mesh comes with a slick UI, automatic deployment in cloud and many more features that are missing from [Nebula](https://github.com/slackhq/nebula) itself. 
+The network is built upon [Nebula](https://github.com/slackhq/nebula) by [Slack](https://github.com/slackhq). The underlying technology is lenghty to set up, requiring deep expertise to do properly. Shieldoo Mesh comes with a slick UI, automatic deployment in cloud and additional features that are missing from [Nebula](https://github.com/slackhq/nebula) itself. 
 
-It brings to the users
-- Non-expert: Ability to set up in a few clicks.
-- Expert: Simplicity, speed and comfort.
+Shieldoo Mesh brings the following benefits to its users:
+- For non-experts - Ability to set up in a few clicks.
+- For experts - Simplicity, speed and comfort.
 
-Please find the user docs
-- Basic User
-- Admin
+To learn about Shieldoo Mesh in detail, see the following role-specific chapters:
+- [Basic User](./basic_user/#basic-user)
+- [Admin](./admin/#admin)
