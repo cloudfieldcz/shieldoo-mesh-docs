@@ -25,11 +25,11 @@ This section describes how to install a server in your Shieldoo Mesh network:
 5. Learn how to connect to the prepared server in the [Connecting to a Server](/server_connection/) section.
 
 {: .warning }
-> By default, each server allows any inbound and outbound traffic.
->
-> To restrict access to a server, you can configure a firewall. Learn how to do that in the [Restricting Access to Servers](/servers/#restricting-access-to-servers) section.
-<!---TODO - do warningu přidat větu o klíči z instalace, aby se nesdílel-->
-<!---TODO - zakomponovat 'Access Rights' a 'Attached Services'-->
+> - The configuration data (provided to you by the installation instructions) contains the secret key to your server.  
+Do not share it with anyone to prevent unauthorized users from exploiting it.
+> - By default, each server allows any inbound and outbound traffic.  
+To restrict access to a server, you can configure a firewall. Learn how to do that in the [Restricting Access to Servers](/servers/#restricting-access-to-servers) section.
+
 ## Editing Servers
 This section describes how to edit a server's configuration after it has been created:
 1. Open the context menu of the server whose configuration you want to edit:  
@@ -43,3 +43,4 @@ This section describes how to edit a server's configuration after it has been cr
 ## Restricting Access to Servers
 This section describes how to restrict access to a server using a firewall:
 <!---## Listeners-->
+<!---TODO - zakomponovat 'Access Rights' a 'Attached Services'-->
