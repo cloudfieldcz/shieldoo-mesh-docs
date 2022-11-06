@@ -7,16 +7,29 @@ permalink: /admin_getting_started/
 ---
 
 # Getting Started
-This section outlines how to set up and connect to your Shieldoo Mesh network:
+This chapter introduces concepts that network administrators deal with.
 
-1. Install all the servers that your network users (i.e. clients) will be able to connect to.  
-Learn how to do that in the [Servers](/servers/) section.
-2. Invite your users to the network.  
-Learn how to do that in the [Users](/users/) section.
-3. Connect to the network as a user.  
-Learn how to do that in the [Connecting to the Network](/network_connection/) section.
-1. Connect to a prepared server as a user.  
-Learn how to do that in the [Connecting to a Server](/server_connection/) section.
+## Administration Mode
+
+
+## Servers
+Servers in a Shieldoo Mesh network are devices that users or other servers can connect to.
+
+To learn how to install servers in your Shieldoo Mesh network, see the [Servers](/servers/) chapter.
+
+## Users
+Users in a Shieldoo Mesh network are clients that can connect to servers. Other clients or servers cannot connect to a user.
+
+To learn how to invite users to your Shieldoo Mesh network, see the [Users](/users/) chapter.
+
+## User Group
+See the [User Group](/access_management/#user-groups) section in the Access Management chapter.
+
+## Firewall
+See the [Firewall](/access_management/#firewall) section in the Access Management chapter.
+
+## Access Card
+See the [Access Card](/access_management/#access-card) section in the Access Management chapter.
 
 <!---## Simple and Expert mode
 
