@@ -11,7 +11,7 @@ Servers in a Shieldoo Mesh network are devices that users or other servers can c
 ![](../../images/Servers01.png)
 
 ## Installing Servers
-This section describes how to install a server in your Shieldoo Mesh network:
+The following steps describe how to install a server in your Shieldoo Mesh network:
 1. Go to the machine on which you want to install the server.
 2. Log in to your organization's Shieldoo Mesh web application.
 3. Create a placeholder for the server in your network:
@@ -28,7 +28,7 @@ This section describes how to install a server in your Shieldoo Mesh network:
 > - The configuration data (provided to you by the installation instructions) contains the secret key to your server.  
 Do not share it with anyone to prevent unauthorized users from exploiting it.
 > - By default, each server allows any inbound and outbound traffic.  
-To restrict access to a server, you can configure a firewall. Learn how to do that in the [Restricting Access to Servers](/servers/#restricting-access-to-servers) section.
+To restrict access to the services running on the given server, you can configure a firewall. Learn how to do that in the [Access Management](/access_management/) chapter.
 
 ## Editing Servers
 This section describes how to edit a server's configuration after it has been created:
@@ -40,7 +40,4 @@ This section describes how to edit a server's configuration after it has been cr
    - **Delete** - Deletes the server from your Shieldoo Mesh network.  
    No users or other servers will be able to connect to it.
 
-## Restricting Access to Servers
-This section describes how to restrict access to a server using a firewall:
-<!---## Listeners-->
-<!---TODO - zakomponovat 'Access Rights' a 'Attached Services'-->
+<!---## Attached Service-->
