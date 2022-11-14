@@ -66,11 +66,11 @@ The following steps describe how to create firewalls:
 5. Configure the firewall settings:  
 ![](../../images/AccessManagement04.png)
     - __Name__ - Give the firewall a descriptive name.
-    - __Inbound Rules__ / - Click on the __Create__ button to open the __Create Rule__ dialog where you configure which groups can access which services running on the network.  
-    - __Outbound Rules__ - Click on the __Create__ button to open the __Create Rule__ dialog where you configure <!---TODO-->
-6. Learn how to configure the firewall rules in the [Configuring Firewall Rules](/access_management/#configuring-firewall-rules) section.
-7. Click on the __Create__ button to confirm the firewall's creation.
-8. Continue by [creating access cards](/access_management/#access-cards) to map the created firewall rules to a specific server that runs the given services (e.g. a database).
+    - __Inbound Rules__ - Click on the __Create__ button to open the __Create Rule__ dialog where you configure rules that filter traffic passing from the network to the local computer (user or server).  
+    - __Outbound Rules__ - Click on the __Create__ button to open the __Create Rule__ dialog where you configure rules that filter traffic passing from the local computer (user or server) to the network. 
+1. Learn how to configure the firewall rules in the [Configuring Firewall Rules](/access_management/#configuring-firewall-rules) section.
+2. Click on the __Create__ button to confirm the firewall's creation.
+3. Continue by [creating access cards](/access_management/#access-cards) to map the created firewall rules to a specific server that runs the given services (e.g. a database).
 
 {: .warning }
 > By default, a user can be accessed by another user or by a server.

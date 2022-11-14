@@ -22,7 +22,7 @@ Servers in a Shieldoo Mesh network are devices that users or other servers can c
 To learn how to install servers in your Shieldoo Mesh network, see the [Servers](/servers/) chapter.
 
 ## Users
-Users in a Shieldoo Mesh network are clients that can connect to servers. Other clients or servers cannot connect to a user.
+Users in a Shieldoo Mesh network are clients that can connect to servers.
 
 To learn how to invite users to your Shieldoo Mesh network, see the [Users](/users/) chapter.
 
