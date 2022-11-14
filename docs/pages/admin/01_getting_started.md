@@ -26,19 +26,11 @@ Users in a Shieldoo Mesh network are clients that can connect to servers. Other 
 
 To learn how to invite users to your Shieldoo Mesh network, see the [Users](/users/) chapter.
 
-## Groups
-A group in a Shieldoo Mesh network is a mechanism that maps specific firewall rules to specific users or servers.
+## Access Management Features
+The following features allow you to manage access to services running in your Shieldoo Mesh network:
+- __Groups__ - A group is a mechanism that maps specific firewall rules to specific users or servers.
+- __Firewalls__ - A firewall configures rules that determine which groups can access which services running on the network. 
+- __Access Cards__ - An access card maps firewall rules and groups to specific servers or users. In other words, it determines which services users or servers can access within the network.
 
-To learn how to create groups, see the [Group](/access_management/#groups) section in the Access Management chapter.
-
-## Firewalls
-A firewall in a Shieldoo Mesh network configures rules that determine which groups can access which services running on the network. 
-
-To learn how to create firewalls, see the [Firewall](/access_management/#firewalls) section in the Access Management chapter.
-
-## Access Cards
-An access card in a Shieldoo Mesh network maps firewall rules and groups to specific servers or users. In other words, it determines which services users or servers can access within the network.
-
-To learn how to create access cards, see the [Access Card](/access_management/#access-cards) section in the Access Management chapter.
-
+To learn more about the listed features, see the [Access Management](/access_management/#groups) chapter.
 <!---Listener-->

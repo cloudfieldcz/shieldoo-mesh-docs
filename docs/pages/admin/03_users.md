@@ -7,7 +7,7 @@ permalink: /users/
 ---
 
 # Users
-Users in a Shieldoo Mesh network are clients that can connect to servers. Other clients or servers cannot connect to a user.
+Users in a Shieldoo Mesh network are clients that can connect to servers.
 ![](../../images/Users01.png)
 
 ## Inviting Users to the Network
@@ -25,12 +25,29 @@ The following steps describe how to invite users to your Shieldoo Mesh network:
     - Label displayed - Invitation not accepted yet.
     - Label not displayed - Invitation accepted.
 8. Let the users know they can [connect to your organization's network](/network_connection/) as soon as they accept the invitation.
+9. Continue by securing 
 
 {: .tip }
 > - Use the **Invited** button to only display users who have not accepted their invitation yet.  
 > ![](../../images/Users02.png)
 > - Use the provided search field to search for specific users by their name or email address.  
 > ![](../../images/Users03.png)
+
+## Securing Users
+By default, a user can be accessed by another user or by a server.
+
+We highly recommend that you secure the users in your network in the following way:
+1. Enable __Expert Mode__.
+2. [Configure a firewall](/access_management/#firewalls) with the following properties:  
+    - __Inbound Rules__ - Configure no inbound rules to prevent anyone from accessing users.
+    - __Outbound Rules__ - Configure an outbound rule that grants users access to `Any` ports opened by servers in the network.
+3. Create a user access card template with the configured firewall:
+   1. Go to the __System Configuration__ \| __User Access Templates__ section.
+   2. Click on the __Create__ button.
+   3. Configure the template settings.  
+   Those settings are a simplified form of the [server access card settings](/access_management/#creating-server-access-cards).
+   1. Click on the __Create__ button to confirm the template's creation.
+4. [Create an access card](/access_management/#access-cards) for each user in your network using the prepared template.
 
 ## Editing Users
 This section describes how to edit a user's configuration after they have been invited:

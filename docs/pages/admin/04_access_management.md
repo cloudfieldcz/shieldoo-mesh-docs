@@ -72,6 +72,11 @@ The following steps describe how to create firewalls:
 7. Click on the __Create__ button to confirm the firewall's creation.
 8. Continue by [creating access cards](/access_management/#access-cards) to map the created firewall rules to a specific server that runs the given services (e.g. a database).
 
+{: .warning }
+> By default, a user can be accessed by another user or by a server.
+> 
+> We highly recommend that you secure the users in your network with a specific firewall. Learn how to do that in the [Securing Users](/users/#securing-users) section.
+
 ### Configuring Firewall Rules
 This section describes the settings of the __Create Rule__ dialog:  
 ![](../../images/AccessManagement05.png)
@@ -100,14 +105,15 @@ The following steps describe how to create access cards for servers:
 5. Click on __Edit__ to open the server's settings.
 6. Go to the __Access Rights__ tab where the access card is configured.
 7. Configure the access card settings:  
-   - __IP Address__ - Skip this setting unless IP address of the given server has changed since you created it.
+   - __IP Address__ - Skip this setting unless the IP address of the given server has changed since you created it.
    - __Firewall configuration__ - Select one of the prepared firewalls.
    - __Groups__ - Map the server with all the desired groups.
-   - __Punch back__ - <!---TODO-->
-   - __Use websocket gateway__ - <!---TODO-->
+   - __Punch back__ - Enable this check box if you want the node that you are trying to reach to connect back to your if your [UDP hole punching](https://en.wikipedia.org/wiki/UDP_hole_punching) fails. This is useful if a node is behind, for example, a symmetric NAT.
+   - __Use websocket gateway__ - Check this check box if you want to use the Shieldoo websocket gateway to enforce the connection even from a site where, for example, UDP is not allowed.
    - __Valid Till__ - Define how long the access card will remain valid:
      - _Subscription lifetime_ - <!---TODO-->
      - _Custom expiration date - Define a custom expiration using the provided date picker.
+8. Click on the __Save__ button to confirm the access card's creation.
 
 ![](../../images/AccessManagement06.png)
 
@@ -123,7 +129,13 @@ The following steps describe how to create access cards for users:
     - _From scratch_ - Configure the access card manually.  
     The user access card settings are a simplified form of the [server access card settings](/access_management/#creating-server-access-cards).
     - _From template_ - Select a prepared user access card template.  
+    You can prepare user access card templates in the __System Configuration__ \| __User Access Templates__ section.
 
-{: .tip }
-> You can prepare user access card templates in the __System Configuration__ \| __User Access Templates__ section.
-> The settings for configuring user access card templates are a simplified form of the [server access card settings](/access_management/#creating-server-access-cards).
+### Connecting to Shieldoo Using an Access Card
+When an administrator configures an access card for a user, Shieldoo forces the user to connect to the network under its restrictions.
+
+If multiple access cards are available to a user, they can select which access card they want to use when connecting to the network.
+
+The access cards become available to users as connection profiles in the context menu of Shieldoo's system tray icon.
+
+![](../../images/AccessManagement07.png)
