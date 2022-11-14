@@ -76,6 +76,9 @@ callouts:
   warning:
     title: Warning
     color: red
+  example:
+    title: Example
+    color: grey-dk
 
 plugins:
   - jekyll-seo-tag

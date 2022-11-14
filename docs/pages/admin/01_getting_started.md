@@ -7,18 +7,30 @@ permalink: /admin_getting_started/
 ---
 
 # Getting Started
-This section outlines how to set up and connect to your Shieldoo Mesh network:
+This chapter introduces the concepts important for the administrators of your Shieldoo Mesh network.
 
-1. Install all the servers that your network users (i.e. clients) will be able to connect to.  
-Learn how to do that in the [Servers](/servers/) section.
-2. Invite your users to the network.  
-Learn how to do that in the [Users](/users/) section.
-3. Connect to the network as a user.  
-Learn how to do that in the [Connecting to the Network](/network_connection/) section.
-1. Connect to a prepared server as a user.  
-Learn how to do that in the [Connecting to a Server](/server_connection/) section.
+## Administration Modes
+Shieldoo Mesh provides administrators with the following configuration modes:
+- __Simple Mode__ - Configures the network quickly, allowing any network traffic.  
+- __Expert Mode__ - Secures the network by establishing rules for filtering incoming and outgoing traffic.  
+To enable the expert mode, use the __Expert Mode__ button in the user menu:  
+![](../../images/GettingStarted01.png)
 
-<!---## Simple and Expert mode
+## Servers
+Servers in a Shieldoo Mesh network are devices that users or other servers can connect to.
 
-## What do we talk about
-User, Server, Group, Access card, Firewall, Listener-->
+To learn how to install servers in your Shieldoo Mesh network, see the [Servers](/servers/) chapter.
+
+## Users
+Users in a Shieldoo Mesh network are clients that can connect to servers. Other clients or servers cannot connect to a user.
+
+To learn how to invite users to your Shieldoo Mesh network, see the [Users](/users/) chapter.
+
+## Access Management Features
+The following features allow you to manage access to services running in your Shieldoo Mesh network:
+- __Groups__ - A group is a mechanism that maps specific firewall rules to specific users or servers.
+- __Firewalls__ - A firewall configures rules that determine which groups can access which services running on the network. 
+- __Access Cards__ - An access card maps firewall rules and groups to specific servers or users. In other words, it determines which services users or servers can access within the network.
+
+To learn more about the listed features, see the [Access Management](/access_management/#groups) chapter.
+<!---Listener-->
