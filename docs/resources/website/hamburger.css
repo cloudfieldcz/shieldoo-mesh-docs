@@ -1,0 +1,89 @@
+#ham {   
+  background: transparent;
+  width: 60px;
+  height: 57px;
+  padding: 10px;
+  box-sizing: border-box;
+  top: 9px;
+  right: 9px;
+  bottom: 0;
+  position: fixed;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .2s ease-in-out;
+  -moz-transition: .2s ease-in-out;
+  -o-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+  cursor: pointer;
+  z-index: 101;
+}
+
+#ham.scrolled {background-color: #00002b; top:0}
+
+#ham span{
+  display: block;
+  position: absolute;
+  top: -2px;
+  height: 1px;
+  width: 32px;
+  background: #fff;
+  opacity: 1;
+  left: 14px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+
+}
+
+/* #ham span::before{ content:' ';  width:1px; height: 1px; position: absolute; left:-1px; background-color: #58aea5;}
+#ham span::after{ content:' ';  width:1px; height: 1px; position: absolute; right:-1px; background-color: #58aea5;} */
+
+#ham .span-change {background-color:#eff2f7}
+#ham span:nth-child(1) {
+top: 16px;
+}
+
+#ham span:nth-child(2),#ham span:nth-child(3) {
+top: 27px;
+}
+
+#ham span:nth-child(4) {
+top: 39px;
+}
+
+/* #ham.open span {background: #000;} */
+
+#ham.open span:nth-child(1) {
+top: 33px;
+width: 0%;
+left: 50%;
+
+}
+
+#ham.open span:nth-child(2) {
+-webkit-transform: rotate(45deg);
+-moz-transform: rotate(45deg);
+-o-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+
+#ham.open span:nth-child(3) {
+-webkit-transform: rotate(-45deg);
+-moz-transform: rotate(-45deg);
+-o-transform: rotate(-45deg);
+transform: rotate(-45deg);
+}
+
+#ham.open span:nth-child(4) {
+top: 16px;
+width: 0%;
+left: 50%;
+opacity:0;
+}
