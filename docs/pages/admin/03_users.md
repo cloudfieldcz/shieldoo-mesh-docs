@@ -25,7 +25,7 @@ The following steps describe how to invite users to your Shieldoo Mesh network:
     - Label displayed - Invitation not accepted yet.
     - Label not displayed - Invitation accepted.
 8. Let the users know they can [connect to your organization's network](/network_connection/) as soon as they accept the invitation.
-9. Continue by securing 
+9. Continue by [securing your users](/users/#securing-users).
 
 {: .tip }
 > - Use the **Invited** button to only display users who have not accepted their invitation yet.  

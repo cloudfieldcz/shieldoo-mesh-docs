@@ -14,25 +14,25 @@ This chapter describes all the features that you must configure if you want to m
 
 {: .example-title }
 > Access Management Example
->
+> 
+> The following schema demonstrates the use of Shieldoo's access management features:
 > ![](../../images/AccessManagement01.svg)
 > 
 > Notice the following points in the example schema:
 > - __Developer__ - A user that needs access to both services running on the resource server.  
-The developer has an access card with the following properties:
->   - It maps the user to the _Database_ and _Messaging_ groups.
->   - It assigns the default firewall to the user, allowing any inbound and outbound traffic.
+The developer has an access card that does the following:
+>   1. Maps the user to the _Database_ and _Messaging_ groups.
+>   2. Assigns a custom firewall to the user, blocking any inbound traffic and allowing any outbound traffic.
 > - __Application Server__ - A server that runs a web application which needs to access the database running on the resource server.  
-The application server has an access card with the following properties:
->   - It maps the server to the _Database_ group.
->   - It assigns the default firewall to the server, allowing any inbound and outbound traffic.
+The application server has an access card that does the following:
+>   1. Maps the server to the _Database_ group.
+>   2. Assigns a custom firewall to the server, blocking any inbound traffic and allowing any outbound traffic.
 > - __Resource Server__ - A server that runs two services which other servers or users need to access.  
-The resource server has an access card with the following properties:
->   - It maps the server to the _Database_ and _Messaging_ groups.
->   - It assigns a custom firewall to the server with the following inbound rules:
->       - Only users or servers in the _Database_ group can access the port 5432.
->       - Only users or servers in the _Messaging_ group can access the port 61616.
->       - No other inbound traffic is allowed.
+The resource server has an access card that does the following:
+>   1. Maps the server to the _Database_ and _Messaging_ groups.
+>   2. Assigns a custom firewall to the server, allowing any outbound traffic and blocking all the inbound traffic except for the following ports:
+>     - 5432 - Only users or servers in the _Database_ group can access it.
+>   - 61616 - Only users or servers in the _Messaging_ group can access it.
 
 
 ## Groups
