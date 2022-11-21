@@ -35,22 +35,22 @@ __4.1.__	The rule is simple, We will process Personal Data only for the duration
 __5.1.__	For the purposes of providing the Services, We will process personal data in electronic form through Services or through other means determined by You, while the subject-matter of the processing will be viewing personal data, storage of personal data, analysis of Personal Data and other activities necessary for providing the Services.
 6.	__TYPES OF PERSONAL DATA__  
 __6.1.__	The following personal data may be processed in accordance with those Processing terms:  
-a)	identification data (name, surname, IP address);  
-b)	log data;  
-c)	contact data (e-mail)  
-d)	other data that will be made available in connection with the provision of the Service.
+&nbsp;&nbsp;&nbsp;&nbsp;__a)__	identification data (name, surname, IP address);  
+&nbsp;&nbsp;&nbsp;&nbsp;__b)__	log data;  
+&nbsp;&nbsp;&nbsp;&nbsp;__c)__	contact data (e-mail)  
+&nbsp;&nbsp;&nbsp;&nbsp;__d)__	other data that will be made available in connection with the provision of the Service.
 7.	__CATEGORIES OF DATA SUBJECTS__  
 __7.1.__	Personal data will cover the following categories of data subjects:  
-a)	Your employees and Your workers;  
-b)	other data subjects about which You have obtained personal data and which was transmitted to Us in connection with the provision of the Services.
+&nbsp;&nbsp;&nbsp;&nbsp;__a)__	Your employees and Your workers;  
+&nbsp;&nbsp;&nbsp;&nbsp;__b)__	other data subjects about which You have obtained personal data and which was transmitted to Us in connection with the provision of the Services.
 8.	__RIGHTS AND OBLIGATIONS__  
 __8.1.__	We declare and undertake to:  
-a)	if We become aware of a breach or impending breach of the security of personal data, accidental or unlawful destruction, loss, alteration or unauthorized provision or disclosure of the processed personal data, immediately, but no later than 48 (forty-eight) hours, inform You in writing and describe as best as possible the resulting or imminent security risk, informing You of appropriate measures to prevent or minimize the breach of the security of the Service and taking all necessary measures to minimize damage;  
-b)	personal data shall be secured in accordance with Article 9 of these Processing terms;  
-c)	personal data will be processed only in accordance with those Processing terms or on the basis of Your other written instructions;  
-d)	assist You in implementing and maintaining appropriate technical and organizational measures to secure personal data, reporting personal data breaches to the supervisory authority or data subject, assessing the data protection impact assessment and in previous consultations with the supervisory authority;  
-e)	ensure cooperation with You through appropriate technical and organizational measures, no later than 14 (fourteen) days after Your request has been made, in order to fulfil Your obligation to respond to requests for the exercise of the rights of the data subject;  
-f)	provide You, at request, without delay, but not later than 14 (fourteen) days after Your request has been made, with all the cooperation necessary to prove that the personal data are sufficiently organizationally and technically secured.  
+&nbsp;&nbsp;&nbsp;&nbsp;__a)__	if We become aware of a breach or impending breach of the security of personal data, accidental or unlawful destruction, loss, alteration or unauthorized provision or disclosure of the processed personal data, immediately, but no later than 48 (forty-eight) hours, inform You in writing and describe as best as possible the resulting or imminent security risk, informing You of appropriate measures to prevent or minimize the breach of the security of the Service and taking all necessary measures to minimize damage;  
+&nbsp;&nbsp;&nbsp;&nbsp;__b)__	personal data shall be secured in accordance with Article 9 of these Processing terms;  
+&nbsp;&nbsp;&nbsp;&nbsp;__c)__	personal data will be processed only in accordance with those Processing terms or on the basis of Your other written instructions;  
+&nbsp;&nbsp;&nbsp;&nbsp;__d)__	assist You in implementing and maintaining appropriate technical and organizational measures to secure personal data, reporting personal data breaches to the supervisory authority or data subject, assessing the data protection impact assessment and in previous consultations with the supervisory authority;  
+&nbsp;&nbsp;&nbsp;&nbsp;__e)__	ensure cooperation with You through appropriate technical and organizational measures, no later than 14 (fourteen) days after Your request has been made, in order to fulfil Your obligation to respond to requests for the exercise of the rights of the data subject;  
+&nbsp;&nbsp;&nbsp;&nbsp;__f)__	provide You, at request, without delay, but not later than 14 (fourteen) days after Your request has been made, with all the cooperation necessary to prove that the personal data are sufficiently organizationally and technically secured.  
 __8.2.__	If We receive any request from the data subject in relation to personal data which relates to those personal data and purposes within which We act as a processor of personal data, We shall inform the data subject to contact You directly with the request. You shall be responsible for handling such request. We shall provide all necessary assistance for the processing of the data subjects' rights, but only to the extent of the personal data processed during provision of Services.  
 __8.3.__	You agree that We will involve other processors for the processing of personal data and, if these other processors are involved, We ensure that they comply with the same data protection obligations as those set out in this Processing terms. You expressly agree that We will involve server providers (e.g. Amazon, Microsoft) and Our employees who provide services to Us under a cooperation or similar agreement. Some personal data, that are shared with Amazon or Microsoft or other server provider (if We will use different one), can be transferred to third countries, as those companies have their servers even in the USA. This transfer is always covered by standard contractual clauses, as well as by security measures provided by these companies, as We are using only companies, that are taking security very seriously.  
 __8.4.__	Should We involve other processors not listed in those Processing terms, We will inform You in advance and, if necessary, allow You to object to such involvement. If You do not object even within 14 (fourteen) days of the notification of the involvement of the additional processor, We shall involve the additional processor in the processing of the Personal Data. If You object, We shall evaluate the objection and, if We find it to be justified, We shall not involve the additional processor.  
@@ -62,15 +62,15 @@ __8.9.__	If You provide Us with personal data, that are not necessary for the pr
 9.	__HOW DO WE SECURE PERSONAL DATA?__  
 __9.1.__	We have taken the following measures and undertakes to maintain them to ensure the security of the processing of personal data throughout the processing process.  
 __9.2.__	Organisational measures:  
-a)	We and Our workers are regularly trained on the principles of data protection and cybersecurity;  
-b)	We and Our staff are also obliged to confidentiality in connection with the processing of personal data;  
-c)	We have a policy of working with personal data, where only selected workers are allowed to access personal data;  
+&nbsp;&nbsp;&nbsp;&nbsp;__a)__	We and Our workers are regularly trained on the principles of data protection and cybersecurity;  
+&nbsp;&nbsp;&nbsp;&nbsp;__b)__	We and Our staff are also obliged to confidentiality in connection with the processing of personal data;  
+&nbsp;&nbsp;&nbsp;&nbsp;__c)__	We have a policy of working with personal data, where only selected workers are allowed to access personal data;  
 __9.3.__	Technical measures:  
-a)	using sufficiently strong passwords when working with personal data;  
-b)	only a secure connection is used to access the infrastructure;  
-c)	personal data are persisted in the AWS RDS service, secured by transparent encryption;  
-d)	personal data are secured in transit by standard TLS;  
-e)	endpoints are secured by the AWS Application Load Balancer with the use of WAF.  
+&nbsp;&nbsp;&nbsp;&nbsp;__a)__	using sufficiently strong passwords when working with personal data;  
+&nbsp;&nbsp;&nbsp;&nbsp;__b)__	only a secure connection is used to access the infrastructure;  
+&nbsp;&nbsp;&nbsp;&nbsp;__c)__	personal data are persisted in the AWS RDS service, secured by transparent encryption;  
+&nbsp;&nbsp;&nbsp;&nbsp;__d)__	personal data are secured in transit by standard TLS;  
+&nbsp;&nbsp;&nbsp;&nbsp;__e)__	endpoints are secured by the AWS Application Load Balancer with the use of WAF.  
 __9.4.__	We will take such technical, personnel and other necessary measures to prevent unauthorized or accidental access to, alteration, destruction or loss of personal data, unauthorized transfers, other unauthorized processing or other misuse of personal data.  
 __9.5.__	We shall ensure appropriate technical and organisational measures to provide a level of security appropriate to the risk, taking into account the state of the art, the nature, scope, context and purposes of the processing, as well as the different likely and differently serious risks to the rights and freedoms of natural persons.
 10.	__WHAT WILL HAPPEN IN THE END?__  
