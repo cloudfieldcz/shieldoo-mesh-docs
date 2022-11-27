@@ -7,32 +7,38 @@ permalink: /access_management/
 ---
 
 # Access Management
-This chapter describes all the features that you must configure if you want to manage access to services running in your Shieldoo Mesh network:
-- [Groups](/access_management/#groups)
-- [Firewalls](/access_management/#firewalls)
-- [Access Cards](/access_management/#access-cards)
+By default, when you set up your Shieldoo mesh network, all network nodes (users and server) can access each other.  
 
-{: .example-title }
-> Access Management Example
-> 
-> The following schema demonstrates the use of Shieldoo's access management features:
-> ![](../../images/AccessManagement01.svg)
-> 
-> Notice the following points in the example schema:
-> - __Developer__ - A user that needs access to both services running on the resource server.  
+The default setup might be sufficient for your solution. If not, advanced users can utilize the __Expert Mode__ to secure the traffic passing between the network and its nodes (users and servers):  
+1. Enable the __Expert Mode__ to gain access to all the access management features.  
+![](../../images/ExpertMode.gif)
+1. Learn about what you can accomplish using the access management features in the [Access Management Example](/access_management/#access-management-example) section.
+2. Configure the access management features to suit your security needs: 
+   - [Groups](/access_management/#groups)
+   - [Firewalls](/access_management/#firewalls)
+   - [Access Cards](/access_management/#access-cards)
+
+## Access Management Example
+The following schema shows an example scenario which you can configure using Shieldoo's access management features:  
+
+![](../../images/AccessManagement01.svg)
+
+__Developer__ - Demostrates a user that needs access to both services running on the resource server.  
 The developer has an access card that does the following:
->   1. Maps the user to the _Database_ and _Messaging_ groups.
->   2. Assigns a custom firewall to the user, blocking any inbound traffic and allowing any outbound traffic.
-> - __Application Server__ - A server that runs a web application which needs to access the database running on the resource server.  
+  1. Maps the user to the _Database_ and _Messaging_ groups.
+  2. Assigns a custom firewall to the user, blocking any inbound traffic and allowing any outbound traffic.  
+
+__Application Server__ - Demonstrates a server that runs a web application which needs access to the database running on the resource server.  
 The application server has an access card that does the following:
->   1. Maps the server to the _Database_ group.
->   2. Assigns a custom firewall to the server, blocking any inbound traffic and allowing any outbound traffic.
-> - __Resource Server__ - A server that runs two services which other servers or users need to access.  
+  1. Maps the server to the _Database_ group.
+  2. Assigns a custom firewall to the server, blocking any inbound traffic and allowing any outbound traffic.  
+
+__Resource Server__ - Demonstrates a server that runs two services which other servers or users need to access.  
 The resource server has an access card that does the following:
->   1. Maps the server to the _Database_ and _Messaging_ groups.
->   2. Assigns a custom firewall to the server, allowing any outbound traffic and blocking all the inbound traffic except for the following ports:
->     - 5432 - Only users or servers in the _Database_ group can access it.
->   - 61616 - Only users or servers in the _Messaging_ group can access it.
+  1. Maps the server to the _Database_ and _Messaging_ groups.
+  2. Assigns a custom firewall to the server, allowing any outbound traffic and blocking all the inbound traffic except for the following ports:
+     - 5432 - Only users or servers in the _Database_ group can access it.
+     - 61616 - Only users or servers in the _Messaging_ group can access it.
 
 
 ## Groups
@@ -51,10 +57,10 @@ The following steps describe how to create groups:
     - __Name__ - Give the group a descriptive name.
     - __Description__ - Describe the group's purpose.
 6. Click on the __Create__ button to confirm the group's creation.
-7. Continue by [creating firewalls](/access_management/#firewalls) that will utilize the created groups.
+7. Continue by [creating firewalls](/access_management/#firewalls), utilizing the created groups.
 
 ## Firewalls
-A firewall in a Shieldoo Mesh network configures rules that determine which groups can access which services running on the network.  
+A firewall in a Shieldoo Mesh network configures rules that determine which traffic can pass between the network and its nodes (users and servers).  
 ![](../../images/AccessManagement03.png)
 
 ### Creating Firewalls
@@ -66,11 +72,11 @@ The following steps describe how to create firewalls:
 5. Configure the firewall settings:  
 ![](../../images/AccessManagement04.png)
     - __Name__ - Give the firewall a descriptive name.
-    - __Inbound Rules__ - Click on the __Create__ button to open the __Create Rule__ dialog where you configure rules that filter traffic passing from the network to the local computer (user or server).  
-    - __Outbound Rules__ - Click on the __Create__ button to open the __Create Rule__ dialog where you configure rules that filter traffic passing from the local computer (user or server) to the network. 
+    - __Inbound Rules__ - Filter traffic passing from the network to a node (user or server).  
+    - __Outbound Rules__ - Filter traffic passing from a node (user or server) to the network. 
 1. Learn how to configure the firewall rules in the [Configuring Firewall Rules](/access_management/#configuring-firewall-rules) section.
 2. Click on the __Create__ button to confirm the firewall's creation.
-3. Continue by [creating access cards](/access_management/#access-cards) to map the created firewall rules to a specific server that runs the given services (e.g. a database).
+3. Continue by [creating access cards](/access_management/#access-cards) to map the created firewall rules to specific nodes (users or servers).
 
 {: .warning }
 > By default, a user can be accessed by another user or by a server.
@@ -111,8 +117,8 @@ The following steps describe how to create access cards for servers:
    - __Punch back__ - Enable this check box if you want the node that you are trying to reach to connect back to your if your [UDP hole punching](https://en.wikipedia.org/wiki/UDP_hole_punching) fails. This is useful if a node is behind, for example, a symmetric NAT.
    - __Use websocket gateway__ - Check this check box if you want to use the Shieldoo websocket gateway to enforce the connection even from a site where, for example, UDP is not allowed.
    - __Valid Till__ - Define how long the access card will remain valid:
-     - _Subscription lifetime_ - <!---TODO-->
-     - _Custom expiration date - Define a custom expiration using the provided date picker.
+     - _Subscription lifetime_ - Defines that the access card will remain valid as long as your organization is subscribed to Shieldoo.
+     - _Custom expiration date_ - Defines a custom expiration using the provided date picker.
 8. Click on the __Save__ button to confirm the access card's creation.
 
 ![](../../images/AccessManagement06.png)

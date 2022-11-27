@@ -11,10 +11,8 @@ This chapter introduces the concepts important for the administrators of your Sh
 
 ## Administration Modes
 Shieldoo Mesh provides administrators with the following configuration modes:
-- __Simple Mode__ - Configures the network quickly, allowing any network traffic.  
-- __Expert Mode__ - Secures the network by establishing rules for filtering incoming and outgoing traffic.  
-To enable the expert mode, use the __Expert Mode__ button in the user menu:  
-![](../../images/GettingStarted01.png)
+- __Simple Mode__ - Allows you to quickly set up your network without configuring any restrictions. By default, all nodes (users or server) will be able to access each other.
+- __Expert Mode__ - Allows advanced users to secure the network by establishing rules for filtering incoming and outgoing traffic passing between the network and its nodes (users and servers).  
 
 ## Servers
 Servers in a Shieldoo Mesh network are devices that users or other servers can connect to.
@@ -27,10 +25,11 @@ Users in a Shieldoo Mesh network are clients that can connect to servers.
 To learn how to invite users to your Shieldoo Mesh network, see the [Users](/users/) chapter.
 
 ## Access Management Features
-The following features allow you to manage access to services running in your Shieldoo Mesh network:
-- __Groups__ - A group is a mechanism that maps specific firewall rules to specific users or servers.
-- __Firewalls__ - A firewall configures rules that determine which groups can access which services running on the network. 
-- __Access Cards__ - An access card maps firewall rules and groups to specific servers or users. In other words, it determines which services users or servers can access within the network.
+The following features allow you to secure your Shieldoo Mesh network:
+- __Groups__ - A group is a mechanism that maps specific firewall rules to specific nodes (users and servers).
+- __Firewalls__ - A firewall configures rules that determine which traffic can pass between the network and its nodes (users and servers). 
+- __Access Cards__ - An access card maps firewall rules and groups to specific nodes (servers and users).  
+In other words, it determines what nodes can access within the network.
 
 To learn more about the listed features, see the [Access Management](/access_management/#groups) chapter.
 <!---Listener-->
