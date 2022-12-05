@@ -11,13 +11,18 @@ This chapter introduces the concepts important for the administrators of your Sh
 
 ## Administration Modes
 Shieldoo Mesh provides administrators with the following configuration modes:
-- __Simple Mode__ - Allows you to quickly set up your network without configuring any restrictions. By default, all nodes (users or server) will be able to access each other.
+- __Simple Mode__ - Allows you to quickly set up your network without configuring any traffic restrictions. By default, all network nodes (users or server) can access each other.
 - __Expert Mode__ - Allows advanced users to secure the network by establishing rules for filtering incoming and outgoing traffic passing between the network and its nodes (users and servers).  
 
 ## Servers
 Servers in a Shieldoo Mesh network are devices that users or other servers can connect to.
 
 To learn how to install servers in your Shieldoo Mesh network, see the [Servers](/servers/) chapter.
+
+## Attached Services
+Attached services are devices that run on the local network of a server (configured in Shieldoo), but on which Shieldoo cannot be installed (e.g. a printer).
+
+Shieldoo allows you to connect to such services directly without having to connect to their servers first.
 
 ## Users
 Users in a Shieldoo Mesh network are clients that can connect to servers.

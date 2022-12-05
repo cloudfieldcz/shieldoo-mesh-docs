@@ -2,7 +2,7 @@
 layout: default
 title: Architecture
 parent: Admin
-nav_order: 5
+nav_order: 6
 permalink: /architecture/
 ---
 
