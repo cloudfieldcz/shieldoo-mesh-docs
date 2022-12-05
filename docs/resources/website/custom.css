@@ -88,6 +88,7 @@ border-color: #f4f6f7 transparent transparent transparent;
 .quotation:after {position: absolute; bottom: -29px; right: 0; content: '';
     background: url(https://uploads-ssl.webflow.com/631864100094ad5c633198c5/6336d2e318aab0ca5bf3e104_Group%2053.svg);
     background-size: cover; width: 41px; height: 18px}
+.button-bold { font-weight: 700; }
 
 .glossary-span {cursor:pointer}
 
