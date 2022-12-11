@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Identities and access cards
+title: Access Cards
 parent: Basic User
 nav_order: 4
 permalink: /identities_access_cards/
