@@ -11,7 +11,7 @@ Users in a Shieldoo Mesh network are clients that can connect to servers.
 ![](../../images/Users01.png)
 
 ## Inviting Users to the Network
-The following steps describe how to invite users to your Shieldoo Mesh network:
+The following steps describe how to invite users to your Shieldoo network:
 1. Log in to your organization's Shieldoo Mesh web application.
 2. Go to the **Users** section.
 3. Click on the **Invite Users** button to open the Invite Users dialog.
