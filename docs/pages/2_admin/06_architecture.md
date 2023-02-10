@@ -24,11 +24,11 @@ This section is available in both the Simple and Expert mode.
 ![](../../images/Architecture01.png)
 
 It allows you to do the following:
-- See the list of [__Lighthouses__](/architecture/#lighthouses) that exist in your Shieldoo Mesh network.
-- Configure the [__CIDR__](https://www.rfc-editor.org/rfc/rfc4632) of your Shieldoo Mesh network.
+- See the list of [__Lighthouses__](/architecture/#lighthouses) that exist in your Shieldoo Secure Network.
+- Configure the [__CIDR__](https://www.rfc-editor.org/rfc/rfc4632) of your Shieldoo Secure Network.
 
 {: .warning}
-> Changing the CIDR of your Shieldoo Mesh network causes all access certificates and IP addresses of nodes (servers and clients) to be regenerated.
+> Changing the CIDR of your Shieldoo Secure Network causes all access certificates and IP addresses of nodes (servers and clients) to be regenerated.
 > Avoid doing this unless you fully understand the implications.
 
 ### Lighthouses

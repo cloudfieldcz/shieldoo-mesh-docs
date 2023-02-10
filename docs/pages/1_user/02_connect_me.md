@@ -1,18 +1,18 @@
 ---
 layout: default
 title: Connect Me
-parent: Basic User
+parent: User
 nav_order: 2
 permalink: /connect_me/
 ---
 
 # Connect Me
-This chapter describes the initial steps necessary for you to start using your Shieldoo Mesh network. We will go through following steps:  
+This chapter describes the initial steps necessary for you to start using your Shieldoo Secure Network. We will go through following steps:  
 - [Login](/connect_me/#login)
 - [Installation](/connect_me/#installation-of-shieldoo)
 
 ## Login
-At the moment when your Shieldoo Mesh network was successfully created together with your user and you were notified via email, this is the initial page requesting to login using your existing Microsoft or Google account.  
+At the moment when your Shieldoo Secure Network was successfully created together with your user and you were notified via email, this is the initial page requesting to login using your existing Microsoft or Google account.  
 ![](../../images/ConnectMe02.png)
 
 {: .note }
@@ -43,7 +43,7 @@ The following steps describe how to install the Shieldoo desktop client:
 {: .note }
 > Shieldoo icon
 > 
-> The icon in the system tray provides visual aid about the current status of the Shieldoo Mesh client.  
+> The icon in the system tray provides visual aid about the current status of the Shieldoo Secure Network client.  
 > 
 > - __Not Connected__ or not yet signed in
 > ![](../../images/ConnectMe12.png)

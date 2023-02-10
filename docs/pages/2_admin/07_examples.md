@@ -16,7 +16,7 @@ permalink: /examples/
 This example shows how to share a printer with the clients in your Shieldoo network. To be able to do this, the printer must run within the local network of a server that is connected to the Shieldoo network.
 
 Follow these steps:
-1. Install the server, on whose local network the printer is running, in your Shieldoo Mesh network.  
+1. Install the server, on whose local network the printer is running, in your Shieldoo Secure Network.  
 Learn how to do that in the [Servers](/servers/) chapter.
 2. Configure a connection to the printer as service attached to the installed server.  
 Learn how to do that in the [Attached Services](/attached_services/) chapter.

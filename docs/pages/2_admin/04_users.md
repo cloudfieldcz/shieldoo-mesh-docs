@@ -7,12 +7,12 @@ permalink: /users/
 ---
 
 # Users
-Users in a Shieldoo Mesh network are clients that can connect to servers.
+Users in a Shieldoo Secure Network are clients that can connect to servers.
 ![](../../images/Users01.png)
 
 ## Inviting Users to the Network
 The following steps describe how to invite users to your Shieldoo network:
-1. Log in to your organization's Shieldoo Mesh web application.
+1. Log in to your organization's Shieldoo Secure Network web application.
 2. Go to the **Users** section.
 3. Click on the **Invite Users** button to open the Invite Users dialog.
 4. Configure the user invitation settings:  
@@ -57,5 +57,5 @@ This section describes how to edit a user's configuration after they have been i
    - **Edit** - Opens the user's configuration which you can edit.
    - **Grand admin rights** - Grants the given user the network administrator rights.
    - **Revoke admin rights** - Removes the network administrator rights from the given user.
-   - **Delete** - Deletes the user from your Shieldoo Mesh network.  
+   - **Delete** - Deletes the user from your Shieldoo Secure Network.  
    The user will no longer be able to connect to the network.
