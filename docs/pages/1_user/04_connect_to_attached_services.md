@@ -1,6 +1,6 @@
 ---
 layout: default
-title: connect_to_attached_services
+title: Connect to a Attached Services
 parent: User
 nav_order: 4
 permalink: /connect_to_attached_services/
