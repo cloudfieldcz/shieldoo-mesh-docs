@@ -7,7 +7,7 @@ permalink: /access_management/
 ---
 
 # Access Management
-By default, when you set up your Shieldoo mesh network, all network nodes (users and server) can access each other.  
+By default, when you set up your Shieldoo Secure Network, all network nodes (users and server) can access each other.  
 
 The default setup might be sufficient for your solution. If not, advanced users can utilize the __Expert Mode__ to secure the traffic passing between the network and its nodes (users and servers):  
 1. Enable the __Expert Mode__ to gain access to all the access management features.  
@@ -42,14 +42,14 @@ The resource server has an access card that does the following:
 
 
 ## Groups
-A group in a Shieldoo Mesh network is a mechanism that maps specific firewall rules to specific users or servers.  
+A group in a Shieldoo Secure Network is a mechanism that maps specific firewall rules to specific users or servers.  
 ![](../../images/AccessManagement02.png)
 
 A group alone does not do any mapping. It only indicates what type of access the group will manage. [Firewalls](/access_management/#firewalls) and [access cards](/access_management/#access-cards) will use created groups to do the mapping.
 
 ### Creating Groups
 The following steps describe how to create groups:
-1. Log in to your organization's Shieldoo Mesh web application.
+1. Log in to your organization's Shieldoo Secure Network web application.
 2. Enable __Expert Mode__.
 3. Go to the __Users__ \| __Groups__ section.
 4. Click on the __Create__ button to open the __Create Group__ dialog.
@@ -60,12 +60,12 @@ The following steps describe how to create groups:
 7. Continue by [creating firewalls](/access_management/#firewalls), utilizing the created groups.
 
 ## Firewalls
-A firewall in a Shieldoo Mesh network configures rules that determine which traffic can pass between the network and its nodes (users and servers).  
+A firewall in a Shieldoo Secure Network configures rules that determine which traffic can pass between the network and its nodes (users and servers).  
 ![](../../images/AccessManagement03.png)
 
 ### Creating Firewalls
 The following steps describe how to create firewalls:
-1. Log in to your organization's Shieldoo Mesh web application.
+1. Log in to your organization's Shieldoo Secure Network web application.
 2. Enable __Expert Mode__.
 3. Go to the __System Configuration__ \| __Firewall__ section.
 4. Click on the __Create__ button to open the __Create Firewall__ dialog.
@@ -100,11 +100,11 @@ This section describes the settings of the __Create Rule__ dialog:
 > If you map a rule to a group called _Database_, only users or servers mapped (in their [access cards](/access_management/#access-cards)) to that group will be able to access the given port.
 
 ## Access Cards
-An access card in a Shieldoo Mesh network maps firewall rules and groups to specific servers or users. In other words, it determines which services users or servers can access within the network.
+An access card in a Shieldoo Secure Network maps firewall rules and groups to specific servers or users. In other words, it determines which services users or servers can access within the network.
 
 ### Creating Server Access Cards
 The following steps describe how to create access cards for servers:
-1. Log in to your organization's Shieldoo Mesh web application.
+1. Log in to your organization's Shieldoo Secure Network web application.
 2. Enable __Expert Mode__.
 3. Go to the __Devices__ \| __Servers__ section.
 4. Open the context menu of the server for which you want to create an access card.
@@ -125,7 +125,7 @@ The following steps describe how to create access cards for servers:
 
 ### Creating User Access Cards
 The following steps describe how to create access cards for users:
-1. Log in to your organization's Shieldoo Mesh web application.
+1. Log in to your organization's Shieldoo Secure Network web application.
 2. Enable __Expert Mode__.
 3. Go to the __Users__ \| __Users__ section.
 4. Open the context menu of the user for whom you want to create an access card.

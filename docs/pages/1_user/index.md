@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Basic User
+title: User
 has_children: true
 nav_order: 2
-permalink: /basic_user/
+permalink: /user/
 ---
-# Basic User
+# User
 
