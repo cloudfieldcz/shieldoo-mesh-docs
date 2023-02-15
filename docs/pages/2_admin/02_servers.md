@@ -22,7 +22,7 @@ The following steps describe how to install a server in your Shieldoo Secure Net
        - **Note** - Describe the server's purpose.
    4. Click on the **Create** button again to open the installation instructions.
 4. Follow the installation instructions to install the server-side Shieldoo Secure Network application on the given machine.
-5. Learn how to connect to the prepared server in the [Connecting to a Server](/server_connection/) section.
+5. Learn how to connect to the prepared server in the [Connecting to a Server](/connect_to_a_server/) section.
 
 {: .warning }
 > - The configuration data (provided to you by the installation instructions) contains the secret key to your server.  
