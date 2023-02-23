@@ -44,7 +44,11 @@ a.button:hover { background-color: #000; color:#00ffda}
 .blogpage-richtext h4{font-size: 1.2rem; font-weight: 400;}
 .blogpage-richtext h4 strong {font-size: 1.2rem; font-weight: 400;}
 
-
+/*home*/
+.intro-p a {
+  text-decoration: none;
+  color:white;
+}
 
 /*team*/
   .team-list-item:nth-of-type(3n+2) {top:-4em}
