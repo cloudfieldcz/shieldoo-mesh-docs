@@ -50,6 +50,11 @@ a.button:hover { background-color: #000; color:#00ffda}
   color:white;
 }
 
+.intro-link {
+  text-decoration: none;
+  color:white;
+}
+
 /*team*/
   .team-list-item:nth-of-type(3n+2) {top:-4em}
   .team-list-item:nth-of-type(3n+3) {top:5em}
