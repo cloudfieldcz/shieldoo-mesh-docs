@@ -2,7 +2,7 @@
 layout: default
 title: Architecture
 parent: Admin
-nav_order: 6
+nav_order: 5
 permalink: /architecture/
 ---
 
@@ -16,16 +16,17 @@ Official Nebula documentation, explaining the core concepts and features in tech
 A blog post done by Shieldoo, explaining Nebula's value, such as its speed, simplicity and security.
 
 The Shieldoo web application allows you to interact with the network architecture using the following features:
-- [System Configuration](/architecture/#system-configuration)
-- [System Logs](/architecture/#system-logs)
+- [System Settings](/architecture/#system-configuration)
+- [Telemetry and Security Logs](/architecture/#system-logs)
 
-## System Configuration
-This section is available in both the Simple and Expert mode.
-![](../../images/Architecture01.png)
+## System Settings
 
-It allows you to do the following:
-- See the list of [__Lighthouses__](/architecture/#lighthouses) that exist in your Shieldoo Secure Network.
-- Configure the [__CIDR__](https://www.rfc-editor.org/rfc/rfc4632) of your Shieldoo Secure Network.
+1. Log in to your organization's Shieldoo Secure Network web application and enable **Expert Mode**
+2. Go to the **Setting & Logs** | **System Configuration** section.![](../../images/Architecture01.gif)
+3. It allows you to do the following:
+  - Configure the [**CIDR**](https://www.rfc-editor.org/rfc/rfc4632) of your Shieldoo Secure Network.
+  - See the list of [**Lighthouses**](/architecture/#lighthouses) that exist in your Shieldoo Secure Network.
+  
 
 {: .warning}
 > Changing the CIDR of your Shieldoo Secure Network causes all access certificates and IP addresses of nodes (servers and clients) to be regenerated.
@@ -39,5 +40,5 @@ A lighthouse tracks network nodes, directing their traffic. When two nodes want 
 {: .note }
 > Shieldoo automatically deploys lighthouses for you.
 
-## System Logs
+## Telemetry and Security Logs
 <!---Telemetry Logs, Security Logs-->

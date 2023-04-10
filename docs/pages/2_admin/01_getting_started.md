@@ -11,23 +11,20 @@ This chapter introduces the concepts important for the administrators of your Sh
 
 ## Administration Modes
 Shieldoo Secure Network provides administrators with the following configuration modes:
-- __Simple Mode__ - Allows you to quickly set up your network without configuring any traffic restrictions. By default, all network nodes (users or server) can access each other.
-- __Expert Mode__ - Allows advanced users to secure the network by establishing rules for filtering incoming and outgoing traffic passing between the network and its nodes (users and servers).  
-
-## Servers
-Servers in a Shieldoo Secure Network are devices that users or other servers can connect to.
-
-To learn how to install servers in your Shieldoo Secure Network, see the [Servers](/servers/) chapter.
-
-## Attached Services
-Attached services are devices that run on the local network of a server (configured in Shieldoo), but on which Shieldoo cannot be installed (e.g. a printer).
-
-Shieldoo allows you to connect to such services directly without having to connect to their servers first.
+- __Admin__ - Allows you to quickly set up your network without configuring any traffic restrictions. By default, all network nodes (users or server) can access each other.
+- __Admin | Expert__ - Allows advanced users to secure the network by establishing rules for filtering incoming and outgoing traffic passing between the network and its nodes (users and servers). Learn about how you can enable Expert Mode, see in the [Access Management](/access_management/) chapter.
 
 ## Users
 Users in a Shieldoo Secure Network are clients that can connect to servers.
 
 To learn how to invite users to your Shieldoo Secure Network, see the [Users](/users/) chapter.
+
+## Servers
+Servers in a Shieldoo Secure Network are devices that users or other servers can connect to.
+
+- __Attached Services__ are devices that run on the local network of a server (configured in Shieldoo), but on which Shieldoo cannot be installed (e.g. a printer). Shieldoo allows you to connect to such services directly without having to connect to their servers first.
+
+To learn how to install servers and attached services in your Shieldoo Secure Network, see the [Servers](/servers/) chapter.
 
 ## Access Management Features
 The following features allow you to secure your Shieldoo Secure Network:
