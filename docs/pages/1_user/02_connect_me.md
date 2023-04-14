@@ -11,10 +11,10 @@ This chapter describes the initial steps to start using your Shieldoo Secure Net
 
 ## Download & Install
 We will go through the following steps:  
-- [1. Login in Shieldoo webapp](/connect_me/#login-in-shieldoo-webapp)
+- [1. Login in Shieldoo web application](/connect_me/#login-in-shieldoo-web-application)
 - [2. Download & install the Shieldoo client](/connect_me/#download-&-install-shieldoo-client)
 
-### Login in Shieldoo webapp
+### Login in Shieldoo web application
 When your Shieldoo Secure Network was successfully created together with your user, and you were notified via email, this is the initial page requesting to log in using your existing Microsoft or Google account.  
 ![](../../images/ConnectMe02.png)
 
@@ -85,7 +85,7 @@ To see the list of available servers, click on the client status icon in the sys
 
 ![](../../images/ConnectMe14.png)
 
-The other possibility is to go to **Connect** Me | My Access Rights__ in Shieldoo webapp.
+The other possibility is to go to **Connect** Me | My Access Rights__ in Shieldoo web application.
 
 ![](../../images/ConnectMe15.gif)
 
