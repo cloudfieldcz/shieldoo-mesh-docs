@@ -21,9 +21,11 @@ The Shieldoo web application allows you to interact with the network architectur
 
 ## System Settings
 
-1. Log in to your organization's Shieldoo Secure Network web application and enable **Expert Mode**
-2. Go to the **Setting & Logs** | **System Configuration** section.![](../../images/Architecture01.gif)
-3. It allows you to do the following:
+1. Log in to your organization's Shieldoo Secure Network web application.
+2. Enable **Expert Mode**
+  - See the [Access Management](/access_management/) chapter to learn how to enable Expert Mode.
+3. Go to the **Setting & Logs** | **System Configuration** section.![](../../images/Architecture01.gif)
+4. It allows you to do the following:
   - Configure the [**CIDR**](https://www.rfc-editor.org/rfc/rfc4632) of your Shieldoo Secure Network.
   - See the list of [**Lighthouses**](/architecture/#lighthouses) that exist in your Shieldoo Secure Network.
   

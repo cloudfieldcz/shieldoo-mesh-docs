@@ -51,7 +51,7 @@ By default, a user can be accessed by another user or by a server.
 
 We highly recommend that you secure the users in your network in the following way:
 1. Enable **Expert Mode**.
-    - To learn about how you can enable Expert Mode, see the [Access](/access_management/) Management](/access_management/) chapter.
+    - See the [Access Management](/access_management/) chapter to learn how to enable Expert Mode.
 2. [Configure a firewall](/access_management/#firewalls) with the following properties:  
     - **Inbound Rules** - Configure no inbound rules to prevent anyone from accessing users.
     - **Outbound Rules** - Configure an outbound rule that grants users access to *Any* ports opened by servers in the network.
