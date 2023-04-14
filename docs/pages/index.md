@@ -14,7 +14,7 @@ Shieldoo™️ connects computers and mobile devices securely in just a few clic
 
 ### Connect without public IP
 
-**Shieldoo™️ connects computers and mobile devices securely in just a few clicks, wherever they are.**
+__Shieldoo™️ connects computers and mobile devices securely in just a few clicks, wherever they are.__
 <!--Shieldoo™️ -> Shieldoo Secure Network?-->
 - Knowing its IP address
 - Configuring it to receive requests
@@ -44,7 +44,7 @@ _We implemented the apis of Microsoft and Google sso for you. Your account will 
 
 ### Zero trust
 
-**Zero trust is based on a key principle: never trust any identity by default.**
+__Zero trust is based on a key principle: never trust any identity by default.__
 
 The endpoints on the Shieldoo™️ secure network always require identity verification and checks for service access eligibility.
 <!--Shieldoo™️ -> Shieldoo Secure Network?-->
@@ -81,7 +81,7 @@ _Have you heard of sdp (software-defined_ perimeter)? Essentially, it refers to 
 
 ### Nebula
 
-**Our solution is based on an open-sourced technology called Nebula.**
+__Our solution is based on an open-sourced technology called Nebula.__
 
 Created at Slack technologies by Nate Brown and Ryan Huber (with the help of their colleagues), Nebula can power production networks for millions of users worldwide. In November 2019, it became available as an open-source product. Its essential functions are:
 
@@ -93,7 +93,7 @@ We understand that not everyone can navigate complex security infrastructure. So
 
 ### AWS
 
-**Our website is hosted on the Amazon Web Services cloud platform.**
+__Our website is hosted on the Amazon Web Services cloud platform.__
 
 Every network has its deployment, database, and utterly separate universe.
 

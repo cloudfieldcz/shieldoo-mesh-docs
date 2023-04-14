@@ -12,7 +12,7 @@ This chapter introduces the concepts essential for your Shieldoo Secure Network 
 ## Administration Modes
 Shieldoo Secure Network provides administrators with the following configuration modes:
 - __Admin__ - Allows you to quickly set up your network without configuring any traffic restrictions. All network nodes (users or servers) can access each other by default.
-- __Admin | Expert__ - Allows advanced users to secure the network by establishing rules for filtering incoming and outgoing traffic passing between the network and its nodes (users and servers). To learn about how you can enable Expert Mode, see the [Access](/access_management/) Management](/access_management/) chapter.
+- __Admin__ \| __Expert__ - Allows advanced users to secure the network by establishing rules for filtering incoming and outgoing traffic passing between the network and its nodes (users and servers). See the [Access Management](/access_management/) chapter to learn how to enable Expert Mode.
 
 ## Users
 Users in a Shieldoo Secure Network are clients that can connect to servers.
@@ -33,5 +33,4 @@ The following features allow you to secure your Shieldoo Secure Network:
 - __Access Cards__ - An access card maps firewall rules and groups to specific nodes (servers and users).  
 In other words, it determines what nodes can access the network.
 
-See the [Access Management](/access_management/#groups) chapter to learn more about the listed features.
-<!---Listener-->
+See the [Access Management](/access_management/) chapter to learn more about the listed features.

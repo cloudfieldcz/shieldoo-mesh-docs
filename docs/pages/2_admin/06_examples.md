@@ -19,7 +19,7 @@ Follow these steps:
 1. Install the server on whose local network the printer is running in your Shieldoo Secure Network.  
 Learn how to do that in the [Servers](/servers/) chapter.
 2. Configure a connection to the printer as a service attached to the installed server.  
-Learn how to do that in the [Attached Services](/attached_services/) chapter.
+Learn how to do that in the [Attached Services](/servers/#attached-services) chapter.
 3. Configure who can access the printer via server firewall rules.  
 Learn how to do that in the [Access Management](/access_management/) chapter.
 4. Connect to your Shieldoo network as a client with access to the printer (i.e. a client whose access to the printer is not blocked by Shieldoo firewall rules).  
