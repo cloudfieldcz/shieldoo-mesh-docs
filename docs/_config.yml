@@ -2,6 +2,7 @@ name: Shieldoo
 description: Software defined private secure network
 remote_theme: just-the-docs/just-the-docs
 logo: "/images/logo.png"
+favicon_ico: "/images/favicon.png"
 # Enable or disable the site search
 # Supports true (default) or false
 search_enabled: true
