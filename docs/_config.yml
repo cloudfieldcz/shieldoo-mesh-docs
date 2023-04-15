@@ -41,7 +41,7 @@ mermaid:
 
 # Google Analytics Tracking
 # TODO when proper url is set
-#ga_tracking: UA-5555555-55
+ga_tracking: G-LGYRT9CX61
 #ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true by default)
 
 # Aux links for the upper right navigation
