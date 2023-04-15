@@ -1,0 +1,22 @@
+# Jekyll build output
+_site/
+
+# macOS files to ignore
+.DS_Store
+
+# Jekyll cache files to ignore
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby gem files to ignore
+/vendor/
+Gemfile.lock
+
+# Git files to ignore
+.git/
+
+# Other files to ignore
+.sass-cache/
+*.log
+*.swp
+Thumbs.db

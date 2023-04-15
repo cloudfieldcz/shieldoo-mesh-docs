@@ -1,13 +1,11 @@
-# Shieldoo Secure Network
+# Documentation for Shieldoo Secure Network
 
-Shieldoo Secure Network  is software defined end-to-end encrypted peer-to-peer overlay private network. Which means that you connect your devices securely over the Internet, but they can talk using just your local Wifi to exchange data when possible.
+To see the contents of the docs, please navigeate to [https://docs.shieldoo.io/](https://docs.shieldoo.io/).
 
-The network is build upon [Nebula](https://github.com/slackhq/nebula) by [Slack](https://github.com/slackhq). The underlying technology is lenghty to set up and it needs some experts to do the setup properly. Shieldoo Secure Network comes with a slick UI, automatic deployment in cloud and many more features that are missing from [Nebula](https://github.com/slackhq/nebula) itself. 
+## Run and deploy
 
-It brings to the users
-- Non-expert: Ability to set up in a few clicks.
-- Expert: Simplicity, speed and comfort.
+The site is hosted on github pages and is deployed automatically from the `main` branch using a github action.
 
-Please find the user docs
-- Basic setup
-- Expert mode
+To run the site locally, follow the [github instruction](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll). 
+
+NOTE: Please keep in mind that the site is rooted in the `/docs/` folder of the repo.
