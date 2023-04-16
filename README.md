@@ -1,13 +1,22 @@
-# Shieldoo Secure Network
+# Documentation for Shieldoo Secure Network
 
-Shieldoo Secure Network is a software-defined end-to-end encrypted peer-to-peer overlay private network. This means you connect your devices securely over the Internet, but they can talk using your local Wifi to exchange data when possible.
+To see the contents of the docs, please navigeate to [https://docs.shieldoo.io/](https://docs.shieldoo.io/).
+  
+## Development and testing
+The site is based on [Jekyll](https://jekyllrb.com/) template.
 
-The network is built upon [Nebula](https://github.com/slackhq/nebula) by [Slack](https://github.com/slackhq). The underlying technology is lengthy, and some experts must do the setup correctly. Shieldoo Secure Network comes with a slick UI, automatic deployment in the cloud and many more features that are missing from [Nebula](https://github.com/slackhq/nebula). 
+To run the site locally, follow the [github instruction](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll). 
 
-It brings the users
-- Non-expert: Ability to set up in a few clicks.
-- Expert: Simplicity, speed and comfort.
+**NOTE** Please keep in mind that the site is rooted in the `/docs/` folder of the repo.
 
-Please find the user docs
-- User
-- Admin
+### Test in a nutshell
+
+1. Clone the repository to your local machine `git clone git@github.com:cloudfieldcz/shieldoo-mesh-docs.git`.
+2. Navigate to the root directory of the cloned repository `cd shieldoo-mesh-docs/docs`/
+3. Install the required gems by running the following command: `bundle install`.
+4. Start the Jekyll server by running the following command: `bundle exec jekyll serve`.
+
+Open your web browser and go to http://localhost:4000/ to view the site.
+
+## Deployment
+The site is hosted on github pages and is deployed automatically from the `main` branch using a github action.
