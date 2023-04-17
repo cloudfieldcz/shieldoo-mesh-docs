@@ -13,7 +13,7 @@ My devices are devices on which users installed the Shieldoo client, and they ca
 ## View My Devices
 The following steps describe how to view my devices in your Shieldoo Secure Network:
 1. Log in to your organization's Shieldoo Secure Network web application.
-2. Go to the **Connect Me** | **My Devices** section.
+2. Go to the __Connect Me__ \| __My Devices__ section.
 
    ![](../../images/MyDevices00.gif)
 
@@ -34,11 +34,11 @@ The following steps describe how to edit your devices in your Shieldoo Secure Ne
    ![](../../images/MyDevices03.gif)
 
 2. Use the provided options to edit the device:  
-   - **Edit Note** - Opens the device note, which you can edit.
-   - **Delete** - Deletes the device from your Shieldoo Secure Network. 
+   - __Edit Note__ - Opens the device note, which you can edit.
+   - __Delete__ - Deletes the device from your Shieldoo Secure Network. 
 
 {: .note }
-If you delete the device, the Shieldoo client will not be uninstalled from the device, and the device will be able to reconnect to the network and be re-added to the My Devices table.
+> If you delete the device, the Shieldoo client will not be uninstalled from the device, and the device will be able to reconnect to the network and be re-added to the My Devices table.
 
 
 

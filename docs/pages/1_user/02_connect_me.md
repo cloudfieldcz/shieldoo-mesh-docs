@@ -11,11 +11,12 @@ This chapter describes the initial steps to start using your Shieldoo Secure Net
 
 ## Download & Install
 We will go through the following steps:  
-- [1. Login in Shieldoo web application](/connect_me/#login-in-shieldoo-web-application)
-- [2. Download & install the Shieldoo client](/connect_me/#download-&-install-shieldoo-client)
+1. [Login in Shieldoo web application](/connect_me/#login-in-shieldoo-web-application)
+2. [Download & install the Shieldoo client](/connect_me/#/connect_me/#download--install-the-shieldoo-client)
 
 ### Login in Shieldoo web application
-When your Shieldoo Secure Network was successfully created together with your user, and you were notified via email, this is the initial page requesting to log in using your existing Microsoft or Google account.  
+When your Shieldoo Secure Network was successfully created together with your user, and you were notified via email, this is the initial page requesting to log in using your existing Microsoft or Google account.
+
 ![](../../images/ConnectMe02.png)
 
 {: .note }
@@ -30,7 +31,7 @@ When your Shieldoo Secure Network was successfully created together with your us
 
 ### Download & install the Shieldoo client
 The following steps describe how to download and install the Shieldoo desktop client:
-1. Go to the **Connect Me** | **Download & Install** section.
+1. Go to the __Connect Me__ \| __Download & Install__ section.
 
     ![](../../images/ConnectMe01.gif)
 
@@ -47,7 +48,7 @@ The following steps describe how to download and install the Shieldoo desktop cl
     ![](../../images/ConnectMe06.png)
 
 5. While installing the client, the address parameter has to be entered to tell the client where to connect.
-¨
+
     ![](../../images/ConnectMe07.png)
 
 6. The last step consists of establishing the connection for the first time. 
@@ -85,7 +86,7 @@ To see the list of available servers, click on the client status icon in the sys
 
 ![](../../images/ConnectMe14.png)
 
-The other possibility is to go to **Connect** Me | My Access Rights__ in Shieldoo web application.
+The other possibility is to go to __Connect Me__ \| __My Access Rights__ in Shieldoo web application.
 
 ![](../../images/ConnectMe15.gif)
 
@@ -96,12 +97,12 @@ It will show the list of available servers within your Shieldoo Secure Network w
 The method of connecting to an attached service depends on the type of the given service.
 Here are the general steps:
 1. Connect to your Shieldoo Secure Network by the client.
-Learn how to do that in the [Connect Me](/connect_me/) chapter.
-2. Go to the **Connect Me** | **My Access Rights** section to see which servers are available to you.
+2. Go to the __Connect Me__ \| __My Access Rights__ section to see which servers are available to you.
 3. Expand the row of a server with any attached services configured.
 4. Connect to an attached service by utilizing the given server's IP address and the attached service's port.
 
 ![](../../images/ConnectMe17.gif)
 
-{: .tip }For specific instructions on how to set such a service, see the [Attached Services](/servers/#attached-services) section.
+{: .tip }
+> For specific instructions on how to set such a service, see the [Attached Services](/servers/#attached-services) section.
 
