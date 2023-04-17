@@ -12,7 +12,7 @@ This chapter describes the initial steps to start using your Shieldoo Secure Net
 ## Download & Install
 We will go through the following steps:  
 1. [Login in Shieldoo web application](/connect_me/#login-in-shieldoo-web-application)
-2. [Download & install the Shieldoo client](/connect_me/#/connect_me/#download--install-the-shieldoo-client)
+2. [Download & install the Shieldoo client](/connect_me/#download--install-the-shieldoo-client)
 
 ### Login in Shieldoo web application
 When your Shieldoo Secure Network was successfully created together with your user, and you were notified via email, this is the initial page requesting to log in using your existing Microsoft or Google account.
