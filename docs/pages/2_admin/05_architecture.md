@@ -16,8 +16,8 @@ Official Nebula documentation explaining the core concepts and features in techn
 A blog post done by Shieldoo explains Nebula's value, such as its speed, simplicity and security.
 
 The Shieldoo web application allows you to interact with the network architecture using the following features:
-- [System Settings](/architecture/#system-configuration)
-- [Telemetry and Security Logs](/architecture/#system-logs)
+- [System Settings](/architecture/#system-settings)
+- [Telemetry and Security Logs](/architecture/#telemetry-and-security-logs)
 
 ## System Settings
 
