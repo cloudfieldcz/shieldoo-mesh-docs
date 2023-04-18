@@ -45,27 +45,27 @@ The following steps describe how to download and install the Shieldoo desktop cl
 </div>
 
 
-1. Choose the download link according to your operating system and click the arrow button.
+2. Choose the download link according to your operating system and click the arrow button.
 
     ![](../../images/ConnectMe04.png)
 
-2. Download the client by clicking the __Download__ button.
+3. Download the client by clicking the __Download__ button.
 
     ![](../../images/ConnectMe05.png)
 
-3. Install the client according to the well-guiding instructions.
+4. Install the client according to the well-guiding instructions.
 
     ![](../../images/ConnectMe06.png)
 
-4. While installing the client, the address parameter has to be entered to tell the client where to connect.
+5. While installing the client, the address parameter has to be entered to tell the client where to connect.
 
     ![](../../images/ConnectMe07.png)
 
-5. The last step consists of establishing the connection for the first time. 
+6. The last step consists of establishing the connection for the first time. 
     
     ![](../../images/ConnectMe08.png)
 
-6. When the setup is completed, you are securely connected! The following message is shown:
+7. When the setup is completed, you are securely connected! The following message is shown:
 
     ![](../../images/ConnectMe09.png)
 
