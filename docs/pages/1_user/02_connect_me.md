@@ -17,7 +17,12 @@ We will go through the following steps:
 ### Login in Shieldoo web application
 When your Shieldoo Secure Network was successfully created together with your user, and you were notified via email, this is the initial page requesting to log in using your existing Microsoft or Google account.
 
-![](../../images/ConnectMe02.png)
+<div class="centered-image">
+  <a href="../../images/ConnectMe02.png" target="_blank">
+    <img src="../../images/ConnectMe02.png" alt="Sign in with your identity provider">
+  </a>
+</div>
+
 
 {: .note }
 > User information
@@ -33,29 +38,34 @@ When your Shieldoo Secure Network was successfully created together with your us
 The following steps describe how to download and install the Shieldoo desktop client:
 1. Go to the __Connect Me__ \| __Download & Install__ section.
 
-    ![](../../images/ConnectMe01.gif)
+<div class="centered-image">
+  <a href="../../images/ConnectMe01.gif" target="_blank">
+    <img src="../../images/ConnectMe01.gif" alt="Download & Install section">
+  </a>
+</div>
 
-2. Choose the download link according to your operating system and click the arrow button.
+
+1. Choose the download link according to your operating system and click the arrow button.
 
     ![](../../images/ConnectMe04.png)
 
-3. Download the client by clicking the __Download__ button.
+2. Download the client by clicking the __Download__ button.
 
     ![](../../images/ConnectMe05.png)
 
-4. Install the client according to the well-guiding instructions.
+3. Install the client according to the well-guiding instructions.
 
     ![](../../images/ConnectMe06.png)
 
-5. While installing the client, the address parameter has to be entered to tell the client where to connect.
+4. While installing the client, the address parameter has to be entered to tell the client where to connect.
 
     ![](../../images/ConnectMe07.png)
 
-6. The last step consists of establishing the connection for the first time. 
+5. The last step consists of establishing the connection for the first time. 
     
     ![](../../images/ConnectMe08.png)
 
-7. When the setup is completed, you are securely connected! The following message is shown:
+6. When the setup is completed, you are securely connected! The following message is shown:
 
     ![](../../images/ConnectMe09.png)
 
@@ -105,4 +115,3 @@ Here are the general steps:
 
 {: .tip }
 > For specific instructions on how to set such a service, see the [Attached Services](/servers/#attached-services) section.
-
