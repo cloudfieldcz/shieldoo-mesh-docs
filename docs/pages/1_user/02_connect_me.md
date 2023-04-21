@@ -7,12 +7,14 @@ permalink: /connect_me/
 ---
 
 # Connect Me
-This chapter describes the initial steps to start using your Shieldoo Secure Network.
+This chapter describes the initial steps to start using your Shieldoo Secure Network:
+1. [Download & Install](/connect_me/#download--install)
+2. [Connect to Shieldoo Secure Network](/connect_me/#connect-to-shieldoo-secure-network)
 
 ## Download & Install
 We will go through the following steps:  
-1. [Login in Shieldoo web application](/connect_me/#login-in-shieldoo-web-application)
-2. [Download & install the Shieldoo client](/connect_me/#download--install-the-shieldoo-client)
+- [Login in Shieldoo web application](/connect_me/#login-in-shieldoo-web-application)
+- [Download & install the Shieldoo client](/connect_me/#download--install-the-shieldoo-client)
 
 ### Login in Shieldoo web application
 When your Shieldoo Secure Network was successfully created together with your user, and you were notified via email, this is the initial page requesting to log in using your existing Microsoft or Google account.
@@ -74,10 +76,14 @@ The following steps describe how to download and install the Shieldoo desktop cl
 
 
 ## Connect to Shieldoo Secure Network
-This section describes establishing a secure connection to a server and attached services in Shieldoo Secure Network.
+This section describes establishing a secure connection to a server and attached services in Shieldoo Secure Network:
+1. [Connect to Servers](/connect_me/#connect-to-servers)
+2. [Connect to the Attached Services](/connect_me/#connect-to-the-attached-services)
 
-- __Servers__ are devices to which users or other servers can connect.
-- __Attached Services__ are a device that runs on the local network of a server but on which Shieldoo Secure Network cannot be installed (e.g. a printer). Shieldoo lets you directly connect to such services without connecting to their servers. These services are managed by the admin of Shieldoo Secure Network.
+{: .note }
+>__Servers__ are devices to which users or other servers can connect.
+>
+>__Attached Services__ are a device that runs on the local network of a server but on which Shieldoo Secure Network cannot be installed (e.g. a printer). Shieldoo lets you directly connect to such services without connecting to their servers. These services are managed by the admin of Shieldoo Secure Network.
 
 ### Connect to Servers
 After successfully downloading and installing the Shieldoo client, you can now securely connect to any server in Shieldoo Secure Network enabled by your administrator.
