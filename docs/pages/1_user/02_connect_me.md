@@ -83,7 +83,7 @@ This section describes establishing a secure connection to a server and attached
 {: .note }
 >__Servers__ are devices to which users or other servers can connect.
 >
->__Attached Services__ are a device that runs on the local network of a server but on which Shieldoo Secure Network cannot be installed (e.g. a printer). Shieldoo lets you directly connect to such services without connecting to their servers. These services are managed by the admin of Shieldoo Secure Network.
+>__Attached Services__ are devices that run on the local network of a server but on which Shieldoo Secure Network cannot be installed (e.g. a printer). Shieldoo lets you directly connect to such services without connecting to their servers. The admin of Shieldoo Secure Network manages these services.
 
 ### Connect to Servers
 After successfully downloading and installing the Shieldoo client, you can now securely connect to any server in Shieldoo Secure Network enabled by your administrator.
