@@ -24,7 +24,7 @@ The Shieldoo web application allows you to interact with the network architectur
 1. Log in to your organization's Shieldoo Secure Network web application.
 2. Enable __Expert Mode__
   - See the [Access Management](/access_management/) chapter to learn how to enable Expert Mode.
-3. Go to the __Setting & Logs__ \| __System Configuration__ section.
+3. Go to the __Settings & Logs__ \| __System Settings__ section.
 
   ![](../../images/Architecture01.gif)
   
