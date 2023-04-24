@@ -62,3 +62,6 @@ We highly recommend that you secure the users in your network in the following w
    3. Configure the template settings. Those settings are a simplified form of [server access card](/access_management/#creating-server-access-cards).
    4. Click the __Create__ button to confirm the template's creation.
 4. [Create an access card](/access_management/#access-cards) for each user in your network using the prepared template.
+
+{: .note }
+>If you do not see some of the user management features described above, check that you have Identity integration enabled. For more information, see the [Identity Integration](/identity_integration/) chapter.
