@@ -8,9 +8,9 @@ permalink: /examples/
 
 # Examples
 
-## Connecting to a Cloud Server
+<!---## Connecting to a Cloud Server-->
 
-## Using Remote Desktop
+<!---## Using Remote Desktop-->
 
 ## Sharing a Printer
 This example shows how to share a printer with the clients in your Shieldoo network. To do this, the printer must run within the local network of a server connected to the Shieldoo network.
@@ -28,8 +28,8 @@ Learn how to do that in the [Connect Me](/connect_me/) chapter.
 For example, the printer should become immediately visible on Windows in the __Printers & scanners__ settings.
 1. Use that printer to start printing documents remotely.
 
-## Time-limited access card for a contractor
+<!--## Time-limited access card for a contractor-->
 
-## Timesheet on a local server
+<!---## Timesheet on a local server-->
 
-## LAN via Raspberry Pi
+<!---## LAN via Raspberry Pi-->
