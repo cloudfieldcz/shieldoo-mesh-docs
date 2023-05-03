@@ -45,7 +45,7 @@ In a Nebula network, a lighthouse is an essential component. It is a public host
 A lighthouse tracks network nodes, directing their traffic. When two nodes want to communicate with each other, a lighthouse finds the fastest route for them, allowing them to communicate directly. There is no central server creating traffic bottlenecks as with traditional VPN solutions.
 
 {: .note }
-> Shieldoo automatically deploys lighthouses for you.
+> Shieldoo Secure Network automatically deploys lighthouses for you.
 
 ## Telemetry and Security Logs
 
@@ -58,4 +58,5 @@ Telemetry and Security Logs can provide a wealth of information to help you moni
   - See the [Access Management](/access_management/) chapter to learn how to enable Expert Mode.
 3. Go to the __Settings & Logs__ \| __Telemetry Logs__ or __Security Logs__ section.
 
-<!--ADD NOTE: In Shieldoo Secure Network, it can go back up to 3 months in telemetry and security logs.-->
+{: .note }
+>Shieldoo Secure Network keeps telemetry and security logs for nine days as standard.
