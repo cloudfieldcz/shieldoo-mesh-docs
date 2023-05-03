@@ -21,17 +21,19 @@ The Shieldoo web application allows you to interact with the network architectur
 
 ## System Settings
 
+System Settings allows you to configure the network architecture of your Shieldoo Secure Network.
+
+![](../../images/Architecture01.gif)
+
 1. Log in to your organization's Shieldoo Secure Network web application.
 2. Enable __Expert Mode__
   - See the [Access Management](/access_management/) chapter to learn how to enable Expert Mode.
 3. Go to the __Settings & Logs__ \| __System Settings__ section.
-
-  ![](../../images/Architecture01.gif)
-  
 4. It allows you to do the following:
   - Configure the [__CIDR__](https://www.rfc-editor.org/rfc/rfc4632) of your Shieldoo Secure Network.
+  - Configure the [__Identity Integration__](/identity_integration/).
+  - Configure the [__API Integration (CLI)__](/api_integration_cli/).
   - See the list of [__Lighthouses__](/architecture/#lighthouses) that exist in your Shieldoo Secure Network.
-  
 
 {: .warning}
 > Changing the CIDR of your Shieldoo Secure Network causes all access certificates and IP addresses of nodes (servers and clients) to be regenerated.
@@ -46,4 +48,14 @@ A lighthouse tracks network nodes, directing their traffic. When two nodes want 
 > Shieldoo automatically deploys lighthouses for you.
 
 ## Telemetry and Security Logs
-<!---Telemetry Logs, Security Logs-->
+
+Telemetry and Security Logs can provide a wealth of information to help you monitor, troubleshoot, and secure your Shieldoo Secure Network.
+
+![](../../images/Architecture02.gif)
+
+1. Log in to your organization's Shieldoo Secure Network web application.
+2. Enable __Expert Mode__
+  - See the [Access Management](/access_management/) chapter to learn how to enable Expert Mode.
+3. Go to the __Settings & Logs__ \| __Telemetry Logs__ or __Security Logs__ section.
+
+<!--ADD NOTE: In Shieldoo Secure Network, it can go back up to 3 months in telemetry and security logs.-->

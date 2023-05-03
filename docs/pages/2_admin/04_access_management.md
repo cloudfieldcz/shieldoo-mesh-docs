@@ -139,7 +139,27 @@ The following steps describe how to create access cards for users:
     - _From scratch_ - Configure the access card manually.  
     The user access card settings are simplified to the [server access card settings](/access_management/#creating-server-access-cards).
     - _From template_ - Select a prepared user access card template.  
-    You can prepare user access card templates in the __Network__ \| __Access Card Templates__ section.
+    You can prepare user Access Card Templates.
+
+### Access Card Templates
+Access Card Templates simplify the creation of user Access Cards, either ad-hock or when using the invite user feature in Expert Mode.  
+
+To following steps, describe how to create and configure Access Card Template:
+
+1. Log in to your organization’s Shieldoo Secure Network web application.
+2. Enable __Expert Mode__.
+3. Go to the __Network__ \| __Access Card Templates__ section.
+4. Click on the __Create__ button to open the Create Access Card Template dialog.
+5. Configure the Access Card Template settings:
+  - __Name__ - Select the name of the template.
+  - __Firewall configuration__ – Select one of the prepared firewalls.
+  - __Groups__ – Map the user with all the desired groups.
+  - __Valid till__ - Defines how long the access card will remain valid (Subscription lifetime or Custom length).
+  - __Description__ - Possibility to write a note.
+7. Click the __Create__ button to confirm the Access Card Template creation.
+
+{: .note }
+>A default Access Card Template is created in the settings of each Shieldoo Secure Network. In basic [Admin mode](/admin_getting_started/#administration-modes), this template creates a user access card when the invited user to the network. The default Access Card Template cannot be deleted for this reason, but you can modify its settings.
 
 ### Connecting to Shieldoo Using an Access Card
 When an administrator configures an access card for a user, Shieldoo forces the user to connect to the network under its restrictions.

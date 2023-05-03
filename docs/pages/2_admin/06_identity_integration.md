@@ -58,7 +58,7 @@ __Configuration Identity integration__
 
 ## Use Identity integration
 
-When creating server and firewall configurations in Shieldoo Secure Network, Azure AD __groups__ are utilized for defining rules and importing members. This ensures that your organization's access controls are consistently applied across all servers and firewalls, improving overall security. In addition, groups are replicated from Azure AD into Shieldoo Secure Network when Identity integration is successfully configured, and you can start using them immediately.
+When creating server and firewall configurations in Shieldoo Secure Network, Azure AD __Groups__ are utilized for defining rules and importing members. This ensures that your organization's access controls are consistently applied across all servers and firewalls, improving overall security. In addition, groups are replicated from Azure AD into Shieldoo Secure Network when Identity integration is successfully configured, and you can start using them immediately.
 
 __Users__ are replicated from Azure AD into Shieldoo Secure Network in two ways: 
 - Admin - When Identity integration is successfully configured, admins (users of group Shieldoo Admin) are replicated from the Azure AD group into Shieldoo Secure Network, and you can start using them immediately.  
@@ -82,6 +82,9 @@ If you want to use a different setting, we recommend that you change the setting
     - Firewall configuration
     - Groups
     - Valid till
+    - Description
+    
+Check out the [Access Management](/access_management/#access-card-templates) chapter if you need more information about the Access Card Template. 
 
 {: .note }
 >__Replicating groups and users__ from Azure AD into Shieldoo Secure Network can be done in two ways:
