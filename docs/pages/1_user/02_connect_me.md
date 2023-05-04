@@ -34,7 +34,7 @@ When your Shieldoo Secure Network was successfully created together with your us
 The following steps describe how to download and install the Shieldoo desktop client:
 1. Go to the __Connect Me__ \| __Download & Install__ section.
 
-{% include c-img.html src="../../images/ConnectMe01.png" %}
+{% include c-img.html src="../../images/ConnectMe01.gif" %}
 
 2. Choose the download link according to your operating system and click the arrow button.
 
