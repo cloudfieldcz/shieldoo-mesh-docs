@@ -16,7 +16,7 @@ Shieldoo Secure Network supports Microsoft Azure AD (Active Directory) integrati
 Shieldoo Secure Network and Azure AD are integrated via an AD application known as a service principal. This application is responsible for reading groups and users from your Azure AD, making it easy to manage Shieldoo Secure Network groups and users without duplicating efforts.
 
 __Configuration Azure AD Application__
-1. Log in to the [Azure portal](https://portal.azure.com/). 
+1. Log in to the <a href="https://portal.azure.com/" target="blank">__Azure portal__<a/>.
 2. Go to the __Azure AD__ \| __App registrations__ section. 
 3. Register a new __application__. 
 4. Configure the following settings:
@@ -30,7 +30,7 @@ __Configuration Azure AD Application__
 Next, you must create a group within Azure AD containing users with admin rights in Shieldoo Secure Network (Shieldoo admins). These admins can manage Shieldoo Secure Network settings and configurations. Centralizing the management admin in one Azure AD group allows you to easily add or remove users as needed, streamlining your security administration process.
 
 __Configuration Azure AD Group__
-1. Log in to the [Azure portal](https://portal.azure.com/). 
+1. Log in to the <a href="https://portal.azure.com/" target="blank">__Azure portal__<a/>. 
 2. Go to the __Azure AD__ \| __Groups__ section. 
 3. Create a new group. 
 4. To the group, add admins in Shieldoo Secure Network.

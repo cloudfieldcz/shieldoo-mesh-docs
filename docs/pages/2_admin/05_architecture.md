@@ -7,12 +7,12 @@ permalink: /architecture/
 ---
 
 # Architecture
-Shieldoo's network architecture is built upon an open-source piece of technology called [Nebula](https://github.com/slackhq/nebula) (by [Slack](https://github.com/slackhq)).
+Shieldoo's network architecture is built upon an open-source piece of technology called <a href="https://github.com/slackhq/nebula" target="blank">Nebula<a/> (by <a href="https://github.com/slackhq" target="blank">Slack<a/>).
 
 To learn how Nebula works, use the following resources:
-- [Nebula Docs](https://nebula.defined.net/docs/)  
+- <a href="https://nebula.defined.net/docs" target="blank">Nebula<a/>    
 Official Nebula documentation explaining the core concepts and features in technical detail.
-- [What Is Nebula and How Does Work?](https://www.shieldoo.io/blogs/what-is-nebula-and-how-it-works)  
+- <a href="https://www.shieldoo.io/blogs/what-is-nebula-and-how-it-works" target="blank">What Is Nebula and How Does Work?<a/>  
 A blog post done by Shieldoo explains Nebula's value, such as its speed, simplicity and security.
 
 The Shieldoo web application allows you to interact with the network architecture using the following features:
@@ -30,7 +30,7 @@ System Settings allows you to configure the network architecture of your Shieldo
   - See the [Access Management](/access_management/) chapter to learn how to enable Expert Mode.
 3. Go to the __Settings & Logs__ \| __System Settings__ section.
 4. It allows you to do the following:
-  - Configure the [__CIDR__](https://www.rfc-editor.org/rfc/rfc4632) of your Shieldoo Secure Network.
+  - Configure the <a href="https://www.rfc-editor.org/rfc/rfc4632" target="blank">__CIDR__<a/> of your Shieldoo Secure Network.
   - Configure the [__Identity Integration__](/identity_integration/).
   - Configure the [__API Integration (CLI)__](/api_integration_cli/).
   - See the list of [__Lighthouses__](/architecture/#lighthouses) that exist in your Shieldoo Secure Network.

@@ -92,9 +92,9 @@ This section describes the settings of the __Create Rule__ dialog:
 ![](../../images/AccessManagement05.png)
 - __Port__ - Define the port of the service for which you want to configure the given firewall rule.
 - __Protocol__ - Define a specific protocol to be allowed:
-  - [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)
-  - [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol)
-  - [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol)
+  - <a href="https://en.wikipedia.org/wiki/Transmission_Control_Protocol" target="blank">TCP<a/>
+  - <a href="https://en.wikipedia.org/wiki/User_Datagram_Protocol" target="blank">UDP<a/>
+  - <a href="https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol" target="blank">ICMP<a/>
   - Any - Configures the rule to be evaluated regardless of the protocol used.
 - __Access for__ - Select which group you want to map to the given rule:
   - _Any group_ - Defines that any user or server can access the port.
@@ -118,7 +118,7 @@ The following steps describe how to create access cards for servers:
    - __IP Address__ - Skip this setting unless the IP address of the given server has changed since you created it.
    - __Firewall configuration__ - Select one of the prepared firewalls.
    - __Groups__ - Map the server with all the desired groups.
-   - __Punch back__ - Enable this check box if you want the node that you are trying to reach to connect back to your if your [UDP hole punching](https://en.wikipedia.org/wiki/UDP_hole_punching) fails. This is useful if a node is behind, for example, a symmetric NAT.
+   - __Punch back__ - Enable this check box if you want the node that you are trying to reach to connect back to your if your <a href="https://en.wikipedia.org/wiki/UDP_hole_punching" target="blank">UDP hole punching<a/> fails. This is useful if a node is behind, for example, a symmetric NAT.
    - __Use websocket gateway__ - Check this check box if you want to use the Shieldoo websocket gateway to enforce the connection even from a site where, for example, UDP is not allowed.
    - __Valid Till__ - Define how long the access card will remain valid:
      - _Subscription lifetime_ - Defines that the access card will remain valid if your organisation subscribes to Shieldoo.
