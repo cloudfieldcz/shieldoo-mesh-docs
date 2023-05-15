@@ -16,7 +16,7 @@ Shieldoo Secure Network supports Microsoft Azure AD (Active Directory) integrati
 Shieldoo Secure Network and Azure AD are integrated via an AD application known as a service principal. This application is responsible for reading groups and users from your Azure AD, making it easy to manage Shieldoo Secure Network groups and users without duplicating efforts.
 
 __Configuration Azure AD Application__
-1. Log in to the [Azure portal](https://portal.azure.com/). 
+1. Log in to the <a href="https://portal.azure.com/" target="blank">__Azure portal__<a/>.
 2. Go to the __Azure AD__ \| __App registrations__ section. 
 3. Register a new __application__. 
 4. Configure the following settings:
@@ -30,7 +30,7 @@ __Configuration Azure AD Application__
 Next, you must create a group within Azure AD containing users with admin rights in Shieldoo Secure Network (Shieldoo admins). These admins can manage Shieldoo Secure Network settings and configurations. Centralizing the management admin in one Azure AD group allows you to easily add or remove users as needed, streamlining your security administration process.
 
 __Configuration Azure AD Group__
-1. Log in to the [Azure portal](https://portal.azure.com/). 
+1. Log in to the <a href="https://portal.azure.com/" target="blank">__Azure portal__<a/>. 
 2. Go to the __Azure AD__ \| __Groups__ section. 
 3. Create a new group. 
 4. To the group, add admins in Shieldoo Secure Network.
@@ -58,7 +58,7 @@ __Configuration Identity integration__
 
 ## Use Identity integration
 
-When creating server and firewall configurations in Shieldoo Secure Network, Azure AD __groups__ are utilized for defining rules and importing members. This ensures that your organization's access controls are consistently applied across all servers and firewalls, improving overall security. In addition, groups are replicated from Azure AD into Shieldoo Secure Network when Identity integration is successfully configured, and you can start using them immediately.
+When creating server and firewall configurations in Shieldoo Secure Network, Azure AD __Groups__ are utilized for defining rules and importing members. This ensures that your organization's access controls are consistently applied across all servers and firewalls, improving overall security. In addition, groups are replicated from Azure AD into Shieldoo Secure Network when Identity integration is successfully configured, and you can start using them immediately.
 
 __Users__ are replicated from Azure AD into Shieldoo Secure Network in two ways: 
 - Admin - When Identity integration is successfully configured, admins (users of group Shieldoo Admin) are replicated from the Azure AD group into Shieldoo Secure Network, and you can start using them immediately.  
@@ -82,6 +82,9 @@ If you want to use a different setting, we recommend that you change the setting
     - Firewall configuration
     - Groups
     - Valid till
+    - Description
+    
+Check out the [Access Management](/access_management/#access-card-templates) chapter if you need more information about the Access Card Template. 
 
 {: .note }
 >__Replicating groups and users__ from Azure AD into Shieldoo Secure Network can be done in two ways:

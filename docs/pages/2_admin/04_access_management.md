@@ -92,9 +92,9 @@ This section describes the settings of the __Create Rule__ dialog:
 ![](../../images/AccessManagement05.png)
 - __Port__ - Define the port of the service for which you want to configure the given firewall rule.
 - __Protocol__ - Define a specific protocol to be allowed:
-  - [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)
-  - [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol)
-  - [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol)
+  - <a href="https://en.wikipedia.org/wiki/Transmission_Control_Protocol" target="blank">TCP<a/>
+  - <a href="https://en.wikipedia.org/wiki/User_Datagram_Protocol" target="blank">UDP<a/>
+  - <a href="https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol" target="blank">ICMP<a/>
   - Any - Configures the rule to be evaluated regardless of the protocol used.
 - __Access for__ - Select which group you want to map to the given rule:
   - _Any group_ - Defines that any user or server can access the port.
@@ -118,7 +118,7 @@ The following steps describe how to create access cards for servers:
    - __IP Address__ - Skip this setting unless the IP address of the given server has changed since you created it.
    - __Firewall configuration__ - Select one of the prepared firewalls.
    - __Groups__ - Map the server with all the desired groups.
-   - __Punch back__ - Enable this check box if you want the node that you are trying to reach to connect back to your if your [UDP hole punching](https://en.wikipedia.org/wiki/UDP_hole_punching) fails. This is useful if a node is behind, for example, a symmetric NAT.
+   - __Punch back__ - Enable this check box if you want the node that you are trying to reach to connect back to your if your <a href="https://en.wikipedia.org/wiki/UDP_hole_punching" target="blank">UDP hole punching<a/> fails. This is useful if a node is behind, for example, a symmetric NAT.
    - __Use websocket gateway__ - Check this check box if you want to use the Shieldoo websocket gateway to enforce the connection even from a site where, for example, UDP is not allowed.
    - __Valid Till__ - Define how long the access card will remain valid:
      - _Subscription lifetime_ - Defines that the access card will remain valid if your organisation subscribes to Shieldoo.
@@ -139,7 +139,27 @@ The following steps describe how to create access cards for users:
     - _From scratch_ - Configure the access card manually.  
     The user access card settings are simplified to the [server access card settings](/access_management/#creating-server-access-cards).
     - _From template_ - Select a prepared user access card template.  
-    You can prepare user access card templates in the __Network__ \| __Access Card Templates__ section.
+    You can prepare user Access Card Templates.
+
+### Access Card Templates
+Access Card Templates simplify the creation of user Access Cards, either ad-hock or when using the invite user feature in Expert Mode.  
+
+To following steps, describe how to create and configure Access Card Template:
+
+1. Log in to your organization’s Shieldoo Secure Network web application.
+2. Enable __Expert Mode__.
+3. Go to the __Network__ \| __Access Card Templates__ section.
+4. Click on the __Create__ button to open the Create Access Card Template dialog.
+5. Configure the Access Card Template settings:
+  - __Name__ - Select the name of the template.
+  - __Firewall configuration__ – Select one of the prepared firewalls.
+  - __Groups__ – Map the user with all the desired groups.
+  - __Valid till__ - Defines how long the access card will remain valid (Subscription lifetime or Custom length).
+  - __Description__ - Possibility to write a note.
+7. Click the __Create__ button to confirm the Access Card Template creation.
+
+{: .note }
+>A default Access Card Template is created in the settings of each Shieldoo Secure Network. In basic [Admin mode](/admin_getting_started/#administration-modes), this template creates a user access card when the invited user to the network. The default Access Card Template cannot be deleted for this reason, but you can modify its settings.
 
 ### Connecting to Shieldoo Using an Access Card
 When an administrator configures an access card for a user, Shieldoo forces the user to connect to the network under its restrictions.
