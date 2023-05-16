@@ -11,9 +11,7 @@ By default, when you set up your Shieldoo Secure Network, all network nodes (use
 
 The default setup might be sufficient for your solution. If not, advanced users can utilize the __Expert Mode__ to secure the traffic passing between the network and its nodes (users and servers):  
 1. Enable the __Expert Mode__ to gain access to all the access management features.
-
 ![](../../images/AccessManagement00.gif)
-
 2. Learn what you can accomplish using the access management features in the [Access Management Example](/access_management/#access-management-example) section.
 3. Configure the access management features to suit your security needs: 
    - [Groups](/access_management/#groups)
