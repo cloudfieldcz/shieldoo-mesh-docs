@@ -19,12 +19,13 @@ We will go through the following steps:
 ### Login in Shieldoo web application
 When your Shieldoo Secure Network was successfully created together with your user, and you were notified via email, this is the initial page requesting to log in using your existing Microsoft or Google account.
 
-![](../../images/ConnectMe02.png)
+{% include c-img.html src="../../images/ConnectMe02.png" alt="Sign in with your identity provider" %}
 
 {: .note }
 > User information
 > 
 > After successful login, the name of the user, type of the user (e.g. 'User' or 'Admin') and the icon are shown in the upper right corner.  
+>
 > 
 > ![](../../images/ConnectMe03.png)
 > 
@@ -35,11 +36,11 @@ When your Shieldoo Secure Network was successfully created together with your us
 The following steps describe how to download and install the Shieldoo desktop client:
 1. Go to the __Connect Me__ \| __Download & Install__ section.
 
-    ![](../../images/ConnectMe01.gif)
+{% include c-img.html src="../../images/ConnectMe01.gif" %}
 
 2. Choose the download link according to your operating system and click the arrow button.
 
-    ![](../../images/ConnectMe04.png)
+{% include c-img.html src="../../images/ConnectMe04.png" %}
 
 3. Download the client by clicking the __Download__ button.
 
@@ -111,4 +112,3 @@ Here are the general steps:
 
 {: .tip }
 > For specific instructions on how to set such a service, see the [Attached Services](/servers/#attached-services) section.
-
