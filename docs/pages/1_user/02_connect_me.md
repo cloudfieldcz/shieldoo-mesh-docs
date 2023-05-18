@@ -12,6 +12,10 @@ This chapter describes the initial steps to start using your Shieldoo Secure Net
 2. [Connect to Shieldoo Secure Network](/connect_me/#connect-to-shieldoo-secure-network)
 
 ## Download & Install
+{: .d-inline-block }
+[__USER__](/user_getting_started/#getting-started){: style="color: white; text-decoration: none;"}
+{: .label .label-blue }
+
 We will go through the following steps:  
 - [Login in Shieldoo web application](/connect_me/#login-in-shieldoo-web-application)
 - [Download & install the Shieldoo client](/connect_me/#download--install-the-shieldoo-client)
@@ -19,7 +23,7 @@ We will go through the following steps:
 ### Login in Shieldoo web application
 When your Shieldoo Secure Network was successfully created together with your user, and you were notified via email, this is the initial page requesting to log in using your existing Microsoft or Google account.
 
-![](../../images/ConnectMe02.png)
+{% include img.html src="../../images/ConnectMe02.png" alt="Login in Shieldoo web application" %}
 
 {: .note }
 > User information
@@ -35,31 +39,31 @@ When your Shieldoo Secure Network was successfully created together with your us
 The following steps describe how to download and install the Shieldoo desktop client:
 1. Go to the __Connect Me__ \| __Download & Install__ section.
 
-    ![](../../images/ConnectMe01.gif)
+    {% include img.html src="../../images/ConnectMe01.gif" alt="Connect Me | Download & Install" %}
 
 2. Choose the download link according to your operating system and click the arrow button.
 
-    ![](../../images/ConnectMe04.png)
+    {% include img.html src="../../images/ConnectMe04.png" alt="Choose operating system" %}
 
 3. Download the client by clicking the __Download__ button.
 
-    ![](../../images/ConnectMe05.png)
+    {% include img.html src="../../images/ConnectMe05.png" alt="Donwload the client" %}
 
 4. Install the client according to the well-guiding instructions.
 
-    ![](../../images/ConnectMe06.png)
+    {% include img.html src="../../images/ConnectMe06.png" alt="Install the client & sign in" %}
 
 5. While installing the client, the address parameter has to be entered to tell the client where to connect.
 
-    ![](../../images/ConnectMe07.png)
+    {% include img.html src="../../images/ConnectMe07.png" alt="Add address parameter Company name" %}
 
 6. The last step consists of establishing the connection for the first time. 
     
-    ![](../../images/ConnectMe08.png)
+    {% include img.html src="../../images/ConnectMe08.png" alt="Establish a connection for the first time" %}
 
 7. When the setup is completed, you are securely connected! The following message is shown:
 
-    ![](../../images/ConnectMe09.png)
+    {% include img.html src="../../images/ConnectMe09.png" alt="Now you can close your browser and go back to your application." %}
 
 
 {: .note }
@@ -76,6 +80,9 @@ The following steps describe how to download and install the Shieldoo desktop cl
 
 
 ## Connect to Shieldoo Secure Network
+{: .d-inline-block }
+[__USER__](/user_getting_started/#getting-started){: style="color: white; text-decoration: none;"}
+{: .label .label-blue }
 This section describes establishing a secure connection to a server and attached services in Shieldoo Secure Network:
 1. [Connect to Servers](/connect_me/#connect-to-servers)
 2. [Connect to the Attached Services](/connect_me/#connect-to-the-attached-services)
@@ -90,14 +97,15 @@ After successfully downloading and installing the Shieldoo client, you can now s
 
 To see the list of available servers, click on the client status icon in the system tray ![](../../images/ConnectMe13.png) and choose __My Access Rights In Shieldoo network__.
 
-![](../../images/ConnectMe14.png)
+{% include img.html src="../../images/ConnectMe14.png" alt="My Access Rights In Shieldoo network" %}
 
 The other possibility is to go to __Connect Me__ \| __My Access Rights__ in Shieldoo web application.
 
-![](../../images/ConnectMe15.gif)
+{% include img.html src="../../images/ConnectMe15.gif" alt="Connect Me | My Access Rights" %}
 
 It will show the list of available servers within your Shieldoo Secure Network with information about their names, IP addresses and description. In descriptions, your administrator will tell you how to connect to the server.
-![](../../images/ConnectMe16.png)
+
+{% include img.html src="../../images/ConnectMe16.png" alt="My Access Rights" %}
 
 ### Connect to the Attached Services
 The method of connecting to an attached service depends on the type of the given service.
@@ -107,7 +115,7 @@ Here are the general steps:
 3. Expand the row of a server with any attached services configured.
 4. Connect to an attached service by utilizing the given server's IP address and the attached service's port.
 
-![](../../images/ConnectMe17.gif)
+{% include img.html src="../../images/ConnectMe17.gif" alt="List of Attached services" %}
 
 {: .tip }
 > For specific instructions on how to set such a service, see the [Attached Services](/servers/#attached-services) section.

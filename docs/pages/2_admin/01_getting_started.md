@@ -7,15 +7,21 @@ permalink: /admin_getting_started/
 ---
 
 # Getting Started
-This chapter introduces the concepts essential for your Shieldoo Secure Network administrators.
+This chapter introduces the concepts essential for your Shieldoo Secure Network administrators (admins).
 
-## Administration Modes
+## Admin Modes
+{: .d-inline-block }
+[__ADMIN__](/admin_getting_started/#administration-modes){: style="color: white; text-decoration: none;"}
+{: .label .label-purple }
+[__ADMIN \| EXPERT__](/admin_getting_started/#administration-modes){: style="color: white; text-decoration: none;"}
+{: .label .label-green }
+
 Shieldoo Secure Network provides administrators with the following configuration modes:
-- __Admin__ - Allows you to quickly set up your network without configuring any traffic restrictions. All network nodes (users or servers) can access each other by default.
-- __Admin__ \| __Expert__ - Allows advanced users to secure the network by establishing rules for filtering incoming and outgoing traffic passing between the network and its nodes (users and servers). See the [Access Management](/access_management/) chapter to learn how to enable Expert Mode.
+1.  __Admin__ - Allows you to quickly set up your network without configuring any traffic restrictions. All network nodes (users or servers) can access each other by default.
+2. __Admin__ \| __Expert__ - Allows advanced users to secure the network by establishing rules for filtering incoming and outgoing traffic passing between the network and its nodes (users and servers). See the [Access Management](/access_management/) chapter to learn how to enable Expert Mode.
 
 ## Users
-Users in a Shieldoo Secure Network are clients that can connect to servers.
+Users in a Shieldoo Secure Network are clients that can connect to servers in network.
 
 To learn how to invite users to your Shieldoo Secure Network, see the [Users](/users/) chapter.
 

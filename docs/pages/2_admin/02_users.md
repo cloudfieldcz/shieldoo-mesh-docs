@@ -9,9 +9,12 @@ permalink: /users/
 # Users
 Users in a Shieldoo Secure Network are clients that can connect to servers.
 
-![](../../images/Users01.png)
+{% include img.html src="../../images/Users01.png" alt="Users" %}
 
 ## Invite Users
+{: .d-inline-block }
+[__ADMIN__](/admin_getting_started/#administration-modes){: style="color: white; text-decoration: none;"}
+{: .label .label-purple }
 The following steps describe how to invite users to your Shieldoo network:
 1. Log in to your organization's Shieldoo Secure Network web application.
 2. Go to the __Network__ \| __Users__ section.
@@ -35,10 +38,13 @@ The following steps describe how to invite users to your Shieldoo network:
 > ![](../../images/Users03.png)
 
 ## Editing Users
+{: .d-inline-block }
+[__ADMIN__](/admin_getting_started/#administration-modes){: style="color: white; text-decoration: none;"}
+{: .label .label-purple }
 This section describes how to edit a user's configuration after they have been invited:
 1. Open the context menu of the user whose configuration you want to edit:  
 
-    ![](../../images/Users04.gif)
+    {% include img.html src="../../images/Users04.gif" alt="Editing Users" %}
 
 2. Use the provided options to edit the server:  
    - __Edit__ - Opens the user's configuration, which you can edit.
@@ -48,9 +54,13 @@ This section describes how to edit a user's configuration after they have been i
    The user will no longer be able to connect to the network.
 
 ## Securing Users
-By default, a user can be accessed by another user or by a server.
+{: .d-inline-block }
+[__ADMIN \| EXPERT__](/admin_getting_started/#administration-modes){: style="color: white; text-decoration: none;"}
+{: .label .label-green }
 
-We highly recommend that you secure the users in your network in the following way:
+By default, when you set up your Shieldoo Secure Network, all network nodes (users and servers) can access each other. 
+
+We highly recommend that you secure the user nodes in your network in the following way:
 1. Enable __Expert Mode__.
     - See the [Access Management](/access_management/) chapter to learn how to enable Expert Mode.
 2. [Configure a firewall](/access_management/#firewalls) with the following properties:  

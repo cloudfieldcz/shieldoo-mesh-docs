@@ -13,6 +13,10 @@ permalink: /examples/
 <!---## Using Remote Desktop-->
 
 ## Sharing a Printer
+{: .d-inline-block }
+[__ADMIN \| EXPERT__](/admin_getting_started/#administration-modes){: style="color: white; text-decoration: none;"}
+{: .label .label-green }
+
 This example shows how to share a printer with the clients in your Shieldoo network. To do this, the printer must run within the local network of a server connected to the Shieldoo network.
 
 Follow these steps:

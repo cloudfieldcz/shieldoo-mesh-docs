@@ -9,9 +9,13 @@ permalink: /servers/
 # Servers
 Servers in a Shieldoo Secure Network are devices to which users or other servers can connect.
 
-![](../../images/Servers01.png)
+{% include img.html src="../../images/Servers01.png" alt="Servers" %}
 
 ## Installing Servers
+{: .d-inline-block }
+[__ADMIN__](/admin_getting_started/#administration-modes){: style="color: white; text-decoration: none;"}
+{: .label .label-purple }
+
 The following steps describe how to install a server in your Shieldoo Secure Network:
 1. Go to the machine you want to install the server.
 2. Log in to your organization's Shieldoo Secure Network web application.
@@ -33,10 +37,14 @@ Do not share it with anyone to prevent unauthorized users from exploiting it.
 You can configure a firewall to restrict access to the services running on the given server. Learn how to do that in the [Access Management](/access_management/) chapter.
 
 ## Editing Servers
+{: .d-inline-block }
+[__ADMIN__](/admin_getting_started/#administration-modes){: style="color: white; text-decoration: none;"}
+{: .label .label-purple }
+
 This section describes how to edit a server's configuration after it has been created:
 1. Open the context menu of the server whose configuration you want to edit:
 
-   ![](../../images/Servers02.gif)
+   {% include img.html src="../../images/Servers02.gif" alt="Editing Servers" %}
 
 2. Use the provided options to edit the server:  
    - __Detail__ - Open the installation instructions you used to install the server.
@@ -45,11 +53,15 @@ This section describes how to edit a server's configuration after it has been cr
    No users or other servers will be able to connect to it.
 
 ## Attached Services
+{: .d-inline-block }
+[__ADMIN \| EXPERT__](/admin_getting_started/#administration-modes){: style="color: white; text-decoration: none;"}
+{: .label .label-green }
+
 An attached service is a device that runs on the local network of a server (configured in Shieldoo) but on which Shieldoo cannot be installed (e.g. a printer).
 
 Shieldoo lets you directly connect to such services without connecting to their servers.
 
-![](../../images/Servers03.png)
+{% include img.html src="../../images/Servers03.png" alt="Attached Services" %}
 
 ### Configuring Attached Services
 The following steps describe how to configure a connection to an attached service:
@@ -59,7 +71,7 @@ The following steps describe how to configure a connection to an attached servic
 3. Go to the __Network__ \| __Servers__ section.
 4. Open the server's context menu whose local network runs the service you want to connect to.
 
-   ![](../../images/Servers04.gif)
+   {% include img.html src="../../images/Servers04.gif" alt="Configuring Attached Services" %}
 
 5. Click on __Edit__ to open the server's settings.
 6. Go to the __Attached Services__ tab.
@@ -95,7 +107,7 @@ Here are the general steps:
    - The IP address of the given server.
    - The service/listen port of the attached service.
 
-![](../../images/Servers06.gif)
+{% include img.html src="../../images/Servers06.gif" alt="Connecting to the Attached Services" %}
 
 {: .tip }
 > For a specific example of connecting to an attached service, see the [Sharing a Printer](/examples/#sharing-a-printer) section.
