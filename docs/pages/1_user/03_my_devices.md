@@ -11,6 +11,10 @@ permalink: /my_devices/
 My devices are devices on which users installed the Shieldoo client, and they can connect from it to the Shieldoo Secure Network.
 
 ## View My Devices
+{: .d-inline-block }
+[__USER__](/user_getting_started/#getting-started){: style="color: white; text-decoration: none;"}
+{: .label .label-blue }
+
 The following steps describe how to view my devices in your Shieldoo Secure Network:
 1. Log in to your organization's Shieldoo Secure Network web application.
 2. Go to the __Connect Me__ \| __My Devices__ section.
@@ -27,6 +31,9 @@ The following steps describe how to view my devices in your Shieldoo Secure Netw
 >The devices are automatically added to the list of my devices after the Shieldoo client is installed and the first connection to the Shieldoo Secure Network.
 
 ## Editing My Devices
+{: .d-inline-block }
+[__USER__](/user_getting_started/#getting-started){: style="color: white; text-decoration: none;"}
+{: .label .label-blue }
 
 The following steps describe how to edit your devices in your Shieldoo Secure Network:
 1. Open the context menu of the devices you want to edit:

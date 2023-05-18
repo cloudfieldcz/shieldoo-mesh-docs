@@ -9,6 +9,13 @@ permalink: /user_getting_started/
 # Getting Started
 This chapter introduces the concepts necessary for using the Shieldoo Secure Network.
 
+## User mode
+{: .d-inline-block }
+[__USER__](/user_getting_started/#getting-started){: style="color: white; text-decoration: none;"}
+{: .label .label-blue }
+
+Users in a Shieldoo Secure Network are clients that can connect to servers in network.
+
 ## Connect Me
 Connect Me describes the initial steps necessary for you to start using your Shieldoo Secure Network:
 - Download & install the Shieldoo desktop client

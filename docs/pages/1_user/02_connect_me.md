@@ -12,6 +12,10 @@ This chapter describes the initial steps to start using your Shieldoo Secure Net
 2. [Connect to Shieldoo Secure Network](/connect_me/#connect-to-shieldoo-secure-network)
 
 ## Download & Install
+{: .d-inline-block }
+[__USER__](/user_getting_started/#getting-started){: style="color: white; text-decoration: none;"}
+{: .label .label-blue }
+
 We will go through the following steps:  
 - [Login in Shieldoo web application](/connect_me/#login-in-shieldoo-web-application)
 - [Download & install the Shieldoo client](/connect_me/#download--install-the-shieldoo-client)
@@ -76,6 +80,9 @@ The following steps describe how to download and install the Shieldoo desktop cl
 
 
 ## Connect to Shieldoo Secure Network
+{: .d-inline-block }
+[__USER__](/user_getting_started/#getting-started){: style="color: white; text-decoration: none;"}
+{: .label .label-blue }
 This section describes establishing a secure connection to a server and attached services in Shieldoo Secure Network:
 1. [Connect to Servers](/connect_me/#connect-to-servers)
 2. [Connect to the Attached Services](/connect_me/#connect-to-the-attached-services)

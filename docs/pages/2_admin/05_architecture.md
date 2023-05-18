@@ -20,6 +20,9 @@ The Shieldoo web application allows you to interact with the network architectur
 - [Telemetry and Security Logs](/architecture/#telemetry-and-security-logs)
 
 ## System Settings
+{: .d-inline-block }
+[__ADMIN \| EXPERT__](/admin_getting_started/#administration-modes){: style="color: white; text-decoration: none;"}
+{: .label .label-green }
 
 System Settings allows you to configure the network architecture of your Shieldoo Secure Network.
 
@@ -48,6 +51,9 @@ A lighthouse tracks network nodes, directing their traffic. When two nodes want 
 > Shieldoo Secure Network automatically deploys lighthouses for you.
 
 ## Telemetry and Security Logs
+{: .d-inline-block }
+[__ADMIN \| EXPERT__](/admin_getting_started/#administration-modes){: style="color: white; text-decoration: none;"}
+{: .label .label-green }
 
 Telemetry and Security Logs can provide a wealth of information to help you monitor, troubleshoot, and secure your Shieldoo Secure Network.
 

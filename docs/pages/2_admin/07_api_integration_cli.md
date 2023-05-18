@@ -18,6 +18,9 @@ __Benefits of API integration (CLI)__
 - Advanced Automation and Scripting
 
 ## Configuration API integration (CLI)
+{: .d-inline-block }
+[__ADMIN \| EXPERT__](/admin_getting_started/#administration-modes){: style="color: white; text-decoration: none;"}
+{: .label .label-green }
 
 Instruction for configuring and using the API integration (CLI) is provided in the Github:
 

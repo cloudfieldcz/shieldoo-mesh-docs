@@ -11,6 +11,9 @@ permalink: /identity_integration/
 Shieldoo Secure Network supports <a href="https://azure.microsoft.com/en-us/products/active-directory" target="blank">Microsoft Azure AD (Active Directory)<a/> integration, which brings enhanced security and simplified management to your IT infrastructure. By leveraging Azure AD, you can seamlessly manage users and groups within Shieldoo, ensuring a secure and organized environment for your servers and firewalls.
 
 ## Configuration Identity integration
+{: .d-inline-block }
+[__ADMIN \| EXPERT__](/admin_getting_started/#administration-modes){: style="color: white; text-decoration: none;"}
+{: .label .label-green }
 
 ### Azure AD Application 
 Shieldoo Secure Network and Azure AD are integrated via an AD application known as a <a href="https://learn.microsoft.com/en-us/azure/active-directory/develop/app-objects-and-service-principals" target="blank">service principal<a/>. This application is responsible for reading groups and users from your Azure AD, making it easy to manage Shieldoo Secure Network groups and users without duplicating efforts.
@@ -57,6 +60,9 @@ __Configuration Identity integration__
 6. Click on the Save button to confirm setting Identity integration.
 
 ## Use Identity integration
+{: .d-inline-block }
+[__ADMIN \| EXPERT__](/admin_getting_started/#administration-modes){: style="color: white; text-decoration: none;"}
+{: .label .label-green }
 
 When creating server and firewall configurations in Shieldoo Secure Network, Azure AD __Groups__ are utilized for defining rules and importing members. This ensures that your organization's access controls are consistently applied across all servers and firewalls, improving overall security. In addition, groups are replicated from Azure AD into Shieldoo Secure Network when Identity integration is successfully configured, and you can start using them immediately.
 
@@ -95,6 +101,9 @@ Check out the [Access Management](/access_management/#access-card-templates) cha
 >    - Click on the __Save__ button to confirm setting Identity integration.
 
 ## Identity integration setting changes some features
+{: .d-inline-block }
+[__ADMIN \| EXPERT__](/admin_getting_started/#administration-modes){: style="color: white; text-decoration: none;"}
+{: .label .label-green }
 
 After successfully configuring the Identity integration, some features will change in the Shieldoo web application: 
 - The __create group feature is enabled__ because it is required to create server-to-server access within the Shieldoo Secure Network. For more information about this feature, see in  [Access Management](/access_management/) chapter. 

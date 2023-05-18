@@ -7,7 +7,7 @@ permalink: /access_management/
 ---
 
 # Access Management
-By default, when you set up your Shieldoo Secure Network, all network nodes (users and server) can access each other.  
+By default, when you set up your Shieldoo Secure Network, all network nodes (users and servers) can access each other.  
 
 The default setup might be sufficient for your solution. If not, advanced users can utilize the __Expert Mode__ to secure the traffic passing between the network and its nodes (users and servers):  
 1. Enable the __Expert Mode__ to gain access to all the access management features.
@@ -19,6 +19,10 @@ The default setup might be sufficient for your solution. If not, advanced users 
    - [Access Cards](/access_management/#access-cards)
 
 ## Access Management Example
+{: .d-inline-block }
+[__ADMIN \| EXPERT__](/admin_getting_started/#administration-modes){: style="color: white; text-decoration: none;"}
+{: .label .label-green }
+
 The following schema shows an example scenario you can configure using Shieldoo's access management features:
 
 __Developer__ - Demonstrates a user needing access to both services running on the resource server.  
@@ -40,6 +44,10 @@ The resource server has an access card that does the following:
 
 
 ## Groups
+{: .d-inline-block }
+[__ADMIN \| EXPERT__](/admin_getting_started/#administration-modes){: style="color: white; text-decoration: none;"}
+{: .label .label-green }
+
 A group in a Shieldoo Secure Network is a mechanism that maps specific firewall rules to specific users or servers.
 
 ![](../../images/AccessManagement02.png)
@@ -59,6 +67,10 @@ The following steps describe how to create groups:
 7. Continue by [Creating Firewalls](/access_management/#firewalls), utilizing the created groups.
 
 ## Firewalls
+{: .d-inline-block }
+[__ADMIN \| EXPERT__](/admin_getting_started/#administration-modes){: style="color: white; text-decoration: none;"}
+{: .label .label-green }
+
 A firewall in a Shieldoo Secure Network configures rules that determine which traffic can pass between the network and its nodes (users and servers).  
 ![](../../images/AccessManagement03.png)
 
@@ -102,6 +114,10 @@ This section describes the settings of the __Create Rule__ dialog:
 > If you map a rule to a group called _Database_, only users or servers mapped (in their [Access Cards](/access_management/#access-cards)) to that group will be able to access the given port.
 
 ## Access Cards
+{: .d-inline-block }
+[__ADMIN \| EXPERT__](/admin_getting_started/#administration-modes){: style="color: white; text-decoration: none;"}
+{: .label .label-green }
+
 An access card in a Shieldoo Secure Network maps firewall rules and groups to specific servers or users. In other words, it determines which services users or servers can access within the network.
 
 ### Creating Server Access Cards

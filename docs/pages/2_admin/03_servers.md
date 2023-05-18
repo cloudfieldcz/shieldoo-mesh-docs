@@ -12,6 +12,10 @@ Servers in a Shieldoo Secure Network are devices to which users or other servers
 ![](../../images/Servers01.png)
 
 ## Installing Servers
+{: .d-inline-block }
+[__ADMIN__](/admin_getting_started/#administration-modes){: style="color: white; text-decoration: none;"}
+{: .label .label-purple }
+
 The following steps describe how to install a server in your Shieldoo Secure Network:
 1. Go to the machine you want to install the server.
 2. Log in to your organization's Shieldoo Secure Network web application.
@@ -33,6 +37,10 @@ Do not share it with anyone to prevent unauthorized users from exploiting it.
 You can configure a firewall to restrict access to the services running on the given server. Learn how to do that in the [Access Management](/access_management/) chapter.
 
 ## Editing Servers
+{: .d-inline-block }
+[__ADMIN__](/admin_getting_started/#administration-modes){: style="color: white; text-decoration: none;"}
+{: .label .label-purple }
+
 This section describes how to edit a server's configuration after it has been created:
 1. Open the context menu of the server whose configuration you want to edit:
 
@@ -45,6 +53,10 @@ This section describes how to edit a server's configuration after it has been cr
    No users or other servers will be able to connect to it.
 
 ## Attached Services
+{: .d-inline-block }
+[__ADMIN \| EXPERT__](/admin_getting_started/#administration-modes){: style="color: white; text-decoration: none;"}
+{: .label .label-green }
+
 An attached service is a device that runs on the local network of a server (configured in Shieldoo) but on which Shieldoo cannot be installed (e.g. a printer).
 
 Shieldoo lets you directly connect to such services without connecting to their servers.

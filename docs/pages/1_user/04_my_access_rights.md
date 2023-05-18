@@ -10,6 +10,10 @@ permalink: /my_access_rights/
 This chapter describes how the access rights are set and how the access cards work in the Shieldoo Secure Network. 
 
 ## Access Rights
+{: .d-inline-block }
+[__USER__](/user_getting_started/#getting-started){: style="color: white; text-decoration: none;"}
+{: .label .label-blue }
+
 The access rights to different servers are managed by your Shieldoo Secure Network administrator. They can not be set by the user themself. If they are placed, Shieldoo forces the user to connect to the network under its restriction.
 
 The following steps describe how to view my access rights in your Shieldoo Secure Network:
@@ -23,6 +27,10 @@ The following steps describe how to view my access rights in your Shieldoo Secur
     ![](../../images/MyAccessRights02.png)
 
 ## Access cards
+{: .d-inline-block }
+[__USER__](/user_getting_started/#getting-started){: style="color: white; text-decoration: none;"}
+{: .label .label-blue }
+
 The access cards enable the administrator to set different access rights to other sites and to assign multiple access cards to users. So one user can have multiple access cards and select which access card to use when connecting to the network.
 
 ![](../../images/MyAccessRights03.png)
