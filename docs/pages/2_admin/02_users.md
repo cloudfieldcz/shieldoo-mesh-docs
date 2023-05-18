@@ -9,7 +9,7 @@ permalink: /users/
 # Users
 Users in a Shieldoo Secure Network are clients that can connect to servers.
 
-![](../../images/Users01.png)
+{% include img.html src="../../images/Users01.png" alt="Users" %}
 
 ## Invite Users
 {: .d-inline-block }
@@ -44,7 +44,7 @@ The following steps describe how to invite users to your Shieldoo network:
 This section describes how to edit a user's configuration after they have been invited:
 1. Open the context menu of the user whose configuration you want to edit:  
 
-    ![](../../images/Users04.gif)
+    {% include img.html src="../../images/Users04.gif" alt="Editing Users" %}
 
 2. Use the provided options to edit the server:  
    - __Edit__ - Opens the user's configuration, which you can edit.

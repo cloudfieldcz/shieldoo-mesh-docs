@@ -20,11 +20,11 @@ The following steps describe how to view my access rights in your Shieldoo Secur
 1. Log in to your organization's Shieldoo Secure Network web application.
 2. Go to the __Connect Me__ \| __My Access Rights__ section.
 
-    ![](../../images/MyAccessRights01.gif)
+    {% include img.html src="../../images/MyAccessRights01.gif" alt="Connect Me | My Access Rights" %}
 
 3. It will provide the following view showing all your access rights:
 
-    ![](../../images/MyAccessRights02.png)
+    {% include img.html src="../../images/MyAccessRights02.png" alt="My Access Rights" %}
 
 ## Access cards
 {: .d-inline-block }
@@ -33,11 +33,11 @@ The following steps describe how to view my access rights in your Shieldoo Secur
 
 The access cards enable the administrator to set different access rights to other sites and to assign multiple access cards to users. So one user can have multiple access cards and select which access card to use when connecting to the network.
 
-![](../../images/MyAccessRights03.png)
+{% include img.html src="../../images/MyAccessRights03.png" alt="Access Cards" %}
 
 The access cards become available to you as a connection profile in the system tray icon menu of the Shieldoo client.
 
-![](../../images/MyAccessRights04.png)
+{% include img.html src="../../images/MyAccessRights04.png" alt="Connect with Access Card" %}
 
 {: .tip }
 > For a specific example of connecting to a server, see the [Connect Me](/connect_me/) chapter.

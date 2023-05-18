@@ -11,7 +11,9 @@ By default, when you set up your Shieldoo Secure Network, all network nodes (use
 
 The default setup might be sufficient for your solution. If not, advanced users can utilize the __Expert Mode__ to secure the traffic passing between the network and its nodes (users and servers):  
 1. Enable the __Expert Mode__ to gain access to all the access management features.
-![](../../images/AccessManagement00.gif)
+
+    {% include img.html src="../../images/AccessManagement00.gif" alt="Enable Expert Mode" %}
+
 2. Learn what you can accomplish using the access management features in the [Access Management Example](/access_management/#access-management-example) section.
 3. Configure the access management features to suit your security needs: 
    - [Groups](/access_management/#groups)
@@ -50,7 +52,7 @@ The resource server has an access card that does the following:
 
 A group in a Shieldoo Secure Network is a mechanism that maps specific firewall rules to specific users or servers.
 
-![](../../images/AccessManagement02.png)
+{% include img.html src="../../images/AccessManagement02.png" alt="Groups" %}
 
 A group alone does not do any mapping. It only indicates what type of access the group will manage. [Firewalls](/access_management/#firewalls) and [Access Cards](/access_management/#access-cards) will use created groups to do the mapping.
 
@@ -71,8 +73,9 @@ The following steps describe how to create groups:
 [__ADMIN \| EXPERT__](/admin_getting_started/#administration-modes){: style="color: white; text-decoration: none;"}
 {: .label .label-green }
 
-A firewall in a Shieldoo Secure Network configures rules that determine which traffic can pass between the network and its nodes (users and servers).  
-![](../../images/AccessManagement03.png)
+A firewall in a Shieldoo Secure Network configures rules that determine which traffic can pass between the network and its nodes (users and servers).
+
+{% include img.html src="../../images/AccessManagement03.png" alt="Firewalls" %}
 
 ### Creating Firewalls
 The following steps describe how to create firewalls:
@@ -82,11 +85,11 @@ The following steps describe how to create firewalls:
 4. Click on the __Create__ button to open the __Create Firewall__ dialog.
 5. Configure the firewall settings:
 
-  ![](../../images/AccessManagement04.png)
+    {% include img.html src="../../images/AccessManagement04.png" alt="Create Firewall" %}
 
-  - __Name__ - Give the firewall a descriptive name.
-  - __Inbound Rules__ - Filter traffic passing from the network to a node (user or server).  
-  - __Outbound Rules__ - Filter traffic from a node (user or server) to the network. 
+    - __Name__ - Give the firewall a descriptive name.
+    - __Inbound Rules__ - Filter traffic passing from the network to a node (user or server).  
+    - __Outbound Rules__ - Filter traffic from a node (user or server) to the network. 
 
 6. Learn how to configure the firewall rules in the [Configuring Firewall Rules](/access_management/#configuring-firewall-rules) section.
 7. Click the __Create__ button to confirm the firewall's creation.
@@ -98,8 +101,10 @@ The following steps describe how to create firewalls:
 > We highly recommend that you secure the users in your network with a specific firewall. Learn how to do that in the [Securing Users](/users/#securing-users) section.
 
 ### Configuring Firewall Rules
-This section describes the settings of the __Create Rule__ dialog:  
-![](../../images/AccessManagement05.png)
+This section describes the settings of the __Create Rule__ dialog:
+
+{% include img.html src="../../images/AccessManagement05.png" alt="Create Rule" %}
+
 - __Port__ - Define the port of the service for which you want to configure the given firewall rule.
 - __Protocol__ - Define a specific protocol to be allowed:
   - <a href="https://en.wikipedia.org/wiki/Transmission_Control_Protocol" target="blank">TCP<a/>
@@ -139,7 +144,7 @@ The following steps describe how to create access cards for servers:
      - _Custom expiration date_ - Defines a custom expiration using the provided date picker.
 8. Click the __Save__ button to confirm the access card's creation.
 
-![](../../images/AccessManagement06.png) 
+{% include img.html src="../../images/AccessManagement06.png" alt="ResourceServer: Access Rights" %}
 
 ### Creating User Access Cards
 The following steps describe how to create access cards for users:
@@ -182,4 +187,4 @@ If multiple access cards are available to a users, they can select which access 
 
 The access cards become available to users as connection profiles in the context menu of Shieldoo's system tray icon.
 
-![](../../images/AccessManagement07.png)
+{% include img.html src="../../images/AccessManagement07.png" alt="Connecting to Shieldoo Using an Access Card" %}
