@@ -19,7 +19,7 @@ __Benefits of API integration (CLI)__
 
 ## Configuration API integration (CLI)
 
-Instructions for configuring and using the API integration (CLI) are provided in the Github:
+Instruction for configuring and using the API integration (CLI) is provided in the Github:
 
 [Shieldoo Github repository](https://github.com/shieldoo/terraform-provider-shieldoo){: .btn .btn-purple target="blank"}
 

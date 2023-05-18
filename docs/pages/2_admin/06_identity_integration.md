@@ -8,12 +8,12 @@ permalink: /identity_integration/
 
 # Identity Integration
 
-Shieldoo Secure Network supports Microsoft Azure AD (Active Directory) integration, which brings enhanced security and simplified management to your IT infrastructure. By leveraging Azure AD, you can seamlessly manage users and groups within Shieldoo, ensuring a secure and organized environment for your servers and firewalls.
+Shieldoo Secure Network supports <a href="https://azure.microsoft.com/en-us/products/active-directory" target="blank">Microsoft Azure AD (Active Directory)<a/> integration, which brings enhanced security and simplified management to your IT infrastructure. By leveraging Azure AD, you can seamlessly manage users and groups within Shieldoo, ensuring a secure and organized environment for your servers and firewalls.
 
 ## Configuration Identity integration
 
 ### Azure AD Application 
-Shieldoo Secure Network and Azure AD are integrated via an AD application known as a service principal. This application is responsible for reading groups and users from your Azure AD, making it easy to manage Shieldoo Secure Network groups and users without duplicating efforts.
+Shieldoo Secure Network and Azure AD are integrated via an AD application known as a <a href="https://learn.microsoft.com/en-us/azure/active-directory/develop/app-objects-and-service-principals" target="blank">service principal<a/>. This application is responsible for reading groups and users from your Azure AD, making it easy to manage Shieldoo Secure Network groups and users without duplicating efforts.
 
 __Configuration Azure AD Application__
 1. Log in to the <a href="https://portal.azure.com/" target="blank">__Azure portal__<a/>.
@@ -27,7 +27,7 @@ __Configuration Azure AD Application__
         - Microsoft Graph: GroupMember.Read.All
 
 ### Azure AD Group 
-Next, you must create a group within Azure AD containing users with admin rights in Shieldoo Secure Network (Shieldoo admins). These admins can manage Shieldoo Secure Network settings and configurations. Centralizing the management admin in one Azure AD group allows you to easily add or remove users as needed, streamlining your security administration process.
+Next, create a group within Azure AD containing users with admin rights in Shieldoo Secure Network (Shieldoo admins). These admins can manage Shieldoo Secure Network settings and configurations. Centralizing the management admin in one Azure AD group allows you to easily add or remove users as needed, streamlining your security administration process.
 
 __Configuration Azure AD Group__
 1. Log in to the <a href="https://portal.azure.com/" target="blank">__Azure portal__<a/>. 
@@ -39,7 +39,7 @@ __Configuration Azure AD Group__
 >Don't forget to group Shieldoo admin, including yourself (who configured the Identity integration), as you could lose access to the Shieldoo Secure Network web application.
 
 ### Shieldoo Secure Network 
-In the last step, you must set up Identity integration in Shieldoo Secure Network.
+In the last step, set up Identity integration in Shieldoo Secure Network.
 
  ![](../../images/IdentityIntegration01.gif)
 
@@ -67,8 +67,8 @@ __Users__ are replicated from Azure AD into Shieldoo Secure Network in two ways:
 See the [Access Management](/access_management/) chapter to learn how to set up access rights and firewall configuration.
 
 {: .warning}
->By default, a user can be accessed by another user or by a server.
->We highly recommend that you secure the users in your network with a specific firewall. Learn how to do that in the [Securing Users](/users/#securing-users) section.
+>By default, when you set up your Shieldoo Secure Network, all network nodes (users and servers) can access each other. 
+>We highly recommend that you secure the user nodes in your network a specific firewall. Learn how to do that in the [Securing Users](/users/#securing-users) section.
 
 By default, a user replicated with specific settings from the __default Access Card Template__ in Shieldoo Secure Network. This ensures that your security policies are consistently applied across your entire organization. 
 
@@ -94,7 +94,7 @@ Check out the [Access Management](/access_management/#access-card-templates) cha
 >    - In the Identity integration section, click the __configure__ button to open the settings dialog.
 >    - Click on the __Save__ button to confirm setting Identity integration.
 
-## Change some features with Identity integration 
+## Identity integration setting changes some features
 
 After successfully configuring the Identity integration, some features will change in the Shieldoo web application: 
 - The __create group feature is enabled__ because it is required to create server-to-server access within the Shieldoo Secure Network. For more information about this feature, see in  [Access Management](/access_management/) chapter. 
