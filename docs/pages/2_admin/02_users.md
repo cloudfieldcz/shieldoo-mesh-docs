@@ -48,9 +48,10 @@ This section describes how to edit a user's configuration after they have been i
    The user will no longer be able to connect to the network.
 
 ## Securing Users
-By default, a user can be accessed by another user or by a server.
 
-We highly recommend that you secure the users in your network in the following way:
+By default, when you set up your Shieldoo Secure Network, all network nodes (users and servers) can access each other. 
+
+We highly recommend that you secure the user nodes in your network in the following way:
 1. Enable __Expert Mode__.
     - See the [Access Management](/access_management/) chapter to learn how to enable Expert Mode.
 2. [Configure a firewall](/access_management/#firewalls) with the following properties:  
