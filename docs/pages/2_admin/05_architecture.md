@@ -37,6 +37,7 @@ System Settings allows you to configure the network architecture of your Shieldo
   - Configure the [__Identity Integration__](/identity_integration/).
   - Configure the [__API Integration (CLI)__](/api_integration_cli/).
   - See the list of [__Lighthouses__](/architecture/#lighthouses) that exist in your Shieldoo Secure Network.
+  - See the list of [__Cost Usage__](/architecture/#cost-usage).
 
 {: .warning}
 > Changing the CIDR of your Shieldoo Secure Network causes all access certificates and IP addresses of nodes (servers and clients) to be regenerated.
@@ -50,6 +51,14 @@ A lighthouse tracks network nodes, directing their traffic. When two nodes want 
 {: .note }
 > Shieldoo Secure Network automatically deploys lighthouses for you.
 
+### Cost usage
+Here you can see the cost usage by month and by specific users and servers. 
+
+{% include img.html src="../../images/Architecture02.png" alt="System Settings" %}
+
+{: .note }
+> For more price information, please visit the <a href="https://www.shieldoo.io/pricing" target="blank">__pricing section__<a/> of our website.
+
 ## Telemetry and Security Logs
 {: .d-inline-block }
 [__ADMIN \| EXPERT__](/admin_getting_started/#administration-modes){: style="color: white; text-decoration: none;"}
@@ -57,7 +66,7 @@ A lighthouse tracks network nodes, directing their traffic. When two nodes want 
 
 Telemetry and Security Logs can provide a wealth of information to help you monitor, troubleshoot, and secure your Shieldoo Secure Network.
 
-{% include img.html src="../../images/Architecture02.gif" alt="Telemetry and Security Logs" %}
+{% include img.html src="../../images/Architecture03.gif" alt="Telemetry and Security Logs" %}
 
 1. Log in to your organization's Shieldoo Secure Network web application.
 2. Enable __Expert Mode__
