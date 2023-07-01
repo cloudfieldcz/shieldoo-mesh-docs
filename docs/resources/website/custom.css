@@ -24,6 +24,7 @@ a {color:#6900FF}
 .link-blogcard:hover .arrow-right {transform: translateX(.5em);}
 .blog-arrow { filter: drop-shadow( 5px 6px 4px rgba(0, 0, 0, 0.1));}
 a.button:hover { background-color: #000; color:#00ffda}
+a.white-button:hover { color:#000}
 
 .logo-compact {transition: all 150ms linear;}
 .logo-compact.scrolled {opacity:1; height: 2.4em; margin-top: 0; top: 0.3rem; display: block;}
