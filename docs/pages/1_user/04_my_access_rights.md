@@ -26,6 +26,10 @@ The following steps describe how to view my access rights in your Shieldoo Secur
 
     {% include img.html src="../../images/MyAccessRights02.png" alt="My Access Rights" %}
 
+
+{: .note }
+> For more information about __server status__, see the [Servers](/servers/) chapter.
+
 ## Access cards
 {: .d-inline-block }
 [__USER__](/user_getting_started/#getting-started){: style="color: white; text-decoration: none;"}
