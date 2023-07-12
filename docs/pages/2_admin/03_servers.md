@@ -39,13 +39,13 @@ You can configure a firewall to restrict access to the services running on the g
 {: .note }
 > The icons in the list of servers provide visual information about the current server status:
 >- ![](../../images/Servers02.png)
-_The server was never connected to the network, and other enabled nodes (users and servers) can not connect. The server may not have been installed yet._
+_The server was never connected to the network, and other enabled nodes (users and servers) can not connect to this server. The server may not have been installed yet._
 >- ![](../../images/Servers03.png)
 _The server is connected to the network, and other enabled nodes (users and servers) can connect to this server._
 >- ![](../../images/Servers04.png)
-_The server is not connected to the network, and other nodes (users and servers) can not connect to this server. The server will need to be turned on, woken up or restarted. Alternatively, reinstall the client on the server._
+_The server is not connected to the network, and other enabled nodes (users and servers) can not connect to this server. The server will need to be turned on, woken up or restarted._
 >- ![](../../images/Servers05.png)
-_The server is not connected to the network, but other nodes (users and servers) can not connect to this server because of a network connection problem._
+_The server is not connected to the network, and other enabled nodes (users and servers) can not connect to this server because of a network connection problem._
 
 ## Editing Servers
 {: .d-inline-block }
