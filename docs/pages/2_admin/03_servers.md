@@ -41,10 +41,12 @@ You can configure a firewall to restrict access to the services running on the g
 >- ![](../../images/Servers02.png)
 _The server was never connected to the network, and other enabled nodes (users and servers) can not connect to this server. The server may not have been installed yet._
 >- ![](../../images/Servers03.png)
-_The server is connected to the network, and other enabled nodes (users and servers) can connect to this server._
+_The server is connected to the network in Peer-to-Peer mode or Relay mode, and other enabled nodes (users and servers) can connect to this server._
 >- ![](../../images/Servers04.png)
-_The server is not connected to the network, and other enabled nodes (users and servers) can not connect to this server. The server will need to be turned on, woken up or restarted._
+_The server is connected to the network in Websocket mode, and other enabled nodes (users and servers) can connect to this server._
 >- ![](../../images/Servers05.png)
+_The server is not connected to the network, and other enabled nodes (users and servers) can not connect to this server. The server will need to be turned on, woken up or restarted._
+>- ![](../../images/Servers06.png)
 _The server is not connected to the network, and other enabled nodes (users and servers) can not connect to this server because of a network connection problem._
 
 ## Editing Servers
@@ -55,7 +57,7 @@ _The server is not connected to the network, and other enabled nodes (users and 
 This section describes how to edit a server's configuration after it has been created:
 1. Open the context menu of the server whose configuration you want to edit:
 
-   {% include img.html src="../../images/Servers06.gif" alt="Editing Servers" %}
+   {% include img.html src="../../images/Servers07.gif" alt="Editing Servers" %}
 
 2. Use the provided options to edit the server:  
    - __Detail__ - Open the installation instructions you used to install the server.
@@ -72,7 +74,7 @@ An attached service is a device that runs on the local network of a server (conf
 
 Shieldoo lets you directly connect to such services without connecting to their servers.
 
-{% include img.html src="../../images/Servers07.png" alt="Attached Services" %}
+{% include img.html src="../../images/Servers08.png" alt="Attached Services" %}
 
 ### Configuring Attached Services
 The following steps describe how to configure a connection to an attached service:
@@ -82,7 +84,7 @@ The following steps describe how to configure a connection to an attached servic
 3. Go to the __Network__ \| __Servers__ section.
 4. Open the server's context menu whose local network runs the service you want to connect to.
 
-   {% include img.html src="../../images/Servers08.gif" alt="Configuring Attached Services" %}
+   {% include img.html src="../../images/Servers09.gif" alt="Configuring Attached Services" %}
 
 5. Click on __Edit__ to open the server's settings.
 6. Go to the __Attached Services__ tab.
@@ -90,7 +92,7 @@ The following steps describe how to configure a connection to an attached servic
 8. Configure the attached service settings:
    - __Type__ - Select what type of attached service you are configuring: _Server_, _Printer_, _NAS_, or _Other_.  
    The __Attached Services__ tab will display the corresponding icon to indicate the type of each configured service.  
-   ![](../../images/Servers09.png)
+   ![](../../images/Servers10.png)
    - __Listen port__ - Define the port you want the service to run within the Shieldoo network.
    - __Protocol__ - Select the network protocol: _TCP_ or _UDP_. <!---Co přesně je to za protokol?-->
    - __Forward port__ - Define the port on which the service you want to connect runs on the server's local network.   
@@ -118,7 +120,7 @@ Here are the general steps:
    - The IP address of the given server.
    - The service/listen port of the attached service.
 
-{% include img.html src="../../images/Servers10.gif" alt="Connecting to the Attached Services" %}
+{% include img.html src="../../images/Servers11.gif" alt="Connecting to the Attached Services" %}
 
 {: .tip }
 > For a specific example of connecting to an attached service, see the [Sharing a Printer](/examples/#sharing-a-printer) section.
