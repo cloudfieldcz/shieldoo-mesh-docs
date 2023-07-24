@@ -98,7 +98,7 @@ The following steps describe how to configure a connection to an attached servic
    - __Forward host__ - Define the IP address or hostname of the service you want to connect to.
    - __Description__ - Describe the attached service's purpose.
 9. Click on the __Save__ button to create the connection to the configured attached service.
-10. Learn how to connect to the prepared Attached Services in the [Connect Me](/connect_me/) chapter.
+10. Learn how to connect to the prepared attached service in the [Connect Me](/connect_me/) chapter.
 
 For a specific example of connecting to an attached service, see the [Sharing a Printer](/examples/#sharing-a-printer) section.
 
