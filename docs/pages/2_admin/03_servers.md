@@ -70,9 +70,7 @@ This section describes how to edit a server's configuration after it has been cr
 [__ADMIN \| EXPERT__](/admin_getting_started/#administration-modes){: style="color: white; text-decoration: none;"}
 {: .label .label-green }
 
-An attached service is a device that runs on the local network of a server (configured in Shieldoo) but on which Shieldoo cannot be installed (e.g. a printer).
-
-Shieldoo lets you directly connect to such services without connecting to their servers.
+An attached service is a device that runs on the local network of a server (configured in Shieldoo) but on which Shieldoo cannot be installed (e.g. a printer). Shieldoo lets you directly connect to such services without connecting to their servers.
 
 {% include img.html src="../../images/Servers08.png" alt="Attached Services" %}
 
@@ -100,27 +98,11 @@ The following steps describe how to configure a connection to an attached servic
    - __Forward host__ - Define the IP address or hostname of the service you want to connect to.
    - __Description__ - Describe the attached service's purpose.
 9. Click on the __Save__ button to create the connection to the configured attached service.
+10. Learn how to connect to the prepared Attached Services in the [Connect Me](/connect_me/) chapter.
+
+For a specific example of connecting to an attached service, see the [Sharing a Printer](/examples/#sharing-a-printer) section.
 
 {: .note }
 > Who can use attached services is governed by the same firewall rules as those that can be configured for servers.  
 > 
 > For more information, see the [Access Management](/access_management/) chapter.
-
-### Connecting to the Attached Services
-The method of connecting to an attached service depends on the type of the given service.
-
-Here are the general steps:
-1. Connect to your Shieldoo network as a client.  
-   - Learn how to do that in the [Connect Me](/connect_me/) chapter.
-2. Go to the __Connect Me__ \| __My Access Rights__ section to see which servers:
-   - Are available to you.
-   - Have attached services configured (see the __Services__ column).
-3. Expand the row of a server with any attached services configured and see the listening ports for those services.
-4. Connect to an attached service by utilizing the:
-   - The IP address of the given server.
-   - The service/listen port of the attached service.
-
-{% include img.html src="../../images/Servers11.gif" alt="Connecting to the Attached Services" %}
-
-{: .tip }
-> For a specific example of connecting to an attached service, see the [Sharing a Printer](/examples/#sharing-a-printer) section.
