@@ -31,10 +31,8 @@ The following steps describe how to install a server in your Shieldoo Secure Net
 5. Learn how to connect to the prepared server in the [Connect Me](/connect_me/) chapter.
 
 {: .warning }
-> - The configuration data (provided by the installation instructions) contains the secret key to your server.  
-Do not share it with anyone to prevent unauthorized users from exploiting it.
-> - By default, each server allows any inbound and outbound traffic.  
-You can configure a firewall to restrict access to the services running on the given server. Learn how to do that in the [Access Management](/access_management/) chapter.
+> - The configuration data (provided by the installation instructions) contains the __secret key__ to your server. Do not share it with anyone to prevent unauthorized users from exploiting it.
+> - By default, each server __allows any inbound and outbound traffic.__ You can configure a firewall to restrict access to the services running on the given server. Learn how to do that in the [Access Management](/access_management/) chapter.
 
 {: .note }
 > The icons in the list of servers provide visual information about the current server status:

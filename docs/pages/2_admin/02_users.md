@@ -46,7 +46,7 @@ This section describes how to edit a user's configuration after they have been i
 
     {% include img.html src="../../images/Users04.gif" alt="Editing Users" %}
 
-2. Use the provided options to edit the server:  
+2. Use the provided options to edit the user:  
    - __Edit__ - Opens the user's configuration, which you can edit.
    - __Grand admin rights__ - Grants the given user the network administrator rights.
    - __Revoke admin rights__ - Removes the network administrator rights from the given user.
