@@ -10,11 +10,9 @@ permalink: /
 
 ## What does it do?
 
-Shieldoo Secure Network connects computers and mobile devices securely in just a few clicks, wherever they are.
-
 ### Connect without public IP
 
-__Shieldoo Secure Network connects computers and mobile devices securely in just a few clicks, wherever they are.__
+Shieldoo Secure Network connects computers and mobile devices securely in just a few clicks, wherever they are:
 - Knowing its IP address
 - Configuring it to receive requests
 - Ensuring that it’s stable and public (which your internet provider can do as an additional service)
