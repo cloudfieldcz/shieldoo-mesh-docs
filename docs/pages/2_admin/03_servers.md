@@ -68,7 +68,7 @@ This section describes how to edit a server's configuration after it has been cr
 [__ADMIN \| EXPERT__](/admin_getting_started/#administration-modes){: style="color: white; text-decoration: none;"}
 {: .label .label-green }
 
-An attached service is a device that runs on the local network of a server (configured in Shieldoo) but on which Shieldoo cannot be installed (e.g. a printer). Shieldoo lets you directly connect to such services without connecting to their servers.
+Attached Services are located on devices that run on the local network of a server, but where Shieldoo cannot be installed (e.g. a printer). Shieldoo lets you directly connect to such services (a device port is mapped to a server port).
 
 {% include img.html src="../../images/Servers08.png" alt="Attached Services" %}
 
