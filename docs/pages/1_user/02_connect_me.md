@@ -83,7 +83,7 @@ The following steps describe how to connect via Shieldoo client:
 
     {% include img.html src="../../images/ConnectMe21.png" alt="Connect Me | Download & Install" %}
 
-After successfully connecting to the Shieldoo Secure Network, you can now securely connect to any server and attached services in the network.
+After successfully connecting to the Shieldoo Secure Network, you can securely connect to any server and attached services in the network.
 
 
 {: .note }
