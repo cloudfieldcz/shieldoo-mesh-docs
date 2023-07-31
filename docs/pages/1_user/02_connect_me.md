@@ -112,7 +112,7 @@ To see the list of available servers, go to __Connect Me__ \| __My Access Rights
 
 {% include img.html src="../../images/ConnectMe15.gif" alt="Connect Me | My Access Rights" %}
 
-It will show the list of available servers with information about their names, IP addresses and descriptions. In the descriptions, your admin will tell you what a particular server is for and how to connect to it.
+It will show the list of available servers with information about their names, IP addresses and descriptions. In the description, your admin tells you what a particular server is for and how to connect to it.
 
 {% include img.html src="../../images/ConnectMe16.png" alt="My Access Rights" %}
 
