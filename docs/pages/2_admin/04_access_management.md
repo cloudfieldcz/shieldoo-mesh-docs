@@ -27,6 +27,8 @@ The default setup might be sufficient for your solution. If not, advanced users 
 
 The following schema shows an example scenario you can configure using Shieldoo's access management features:
 
+{% include img.html src="../../images/AccessManagement01.svg" alt="Access Management Example Schema" %}
+
 __Developer__ - Demonstrates a user needing access to both services running on the resource server.  
 The developer has an access card that does the following:
   1. Maps the user to the _Database_ and _Messaging_ groups.
