@@ -12,7 +12,7 @@ By default, when you set up your Shieldoo Secure Network, all network nodes (use
 The default setup might be sufficient for your solution. If not, advanced users can utilize the __Expert Mode__ to secure the traffic passing between the network and its nodes (users and servers):  
 1. Enable the __Expert Mode__ to gain access to all the access management features.
 
-    {% include img.html src="../../images/AccessManagement00.gif" alt="Enable Expert Mode" %}
+    {% include img.html src="../../images/AccessManagement01.gif" alt="Enable Expert Mode" %}
 
 2. Learn what you can accomplish using the access management features in the [Access Management Example](/access_management/#access-management-example) section.
 3. Configure the access management features to suit your security needs: 
@@ -27,7 +27,7 @@ The default setup might be sufficient for your solution. If not, advanced users 
 
 The following schema shows an example scenario you can configure using Shieldoo's access management features:
 
-{% include img.html src="../../images/AccessManagement01.svg" alt="Access Management Example Schema" %}
+{% include img.html src="../../images/AccessManagement02.svg" alt="Access Management Example Schema" %}
 
 __Developer__ - Demonstrates a user needing access to both services running on the resource server.  
 The developer has an access card that does the following:
@@ -54,7 +54,7 @@ The resource server has an access card that does the following:
 
 A group in a Shieldoo Secure Network is a mechanism that maps specific firewall rules to specific users or servers.
 
-{% include img.html src="../../images/AccessManagement02.png" alt="Groups" %}
+{% include img.html src="../../images/AccessManagement03.png" alt="Groups" %}
 
 A group alone does not do any mapping. It only indicates what type of access the group will manage. [Firewalls](/access_management/#firewalls) and [Access Cards](/access_management/#access-cards) will use created groups to do the mapping.
 
@@ -77,7 +77,7 @@ The following steps describe how to create groups:
 
 A firewall in a Shieldoo Secure Network configures rules that determine which traffic can pass between the network and its nodes (users and servers).
 
-{% include img.html src="../../images/AccessManagement03.png" alt="Firewalls" %}
+{% include img.html src="../../images/AccessManagement04.png" alt="Firewalls" %}
 
 ### Creating Firewalls
 The following steps describe how to create firewalls:
@@ -87,7 +87,7 @@ The following steps describe how to create firewalls:
 4. Click on the __Create__ button to open the __Create Firewall__ dialog.
 5. Configure the firewall settings:
 
-    {% include img.html src="../../images/AccessManagement04.png" alt="Create Firewall" %}
+    {% include img.html src="../../images/AccessManagement05.png" alt="Create Firewall" %}
 
     - __Name__ - Give the firewall a descriptive name.
     - __Inbound Rules__ - Filter traffic passing from the network to a node (user or server).  
@@ -105,7 +105,7 @@ The following steps describe how to create firewalls:
 ### Configuring Firewall Rules
 This section describes the settings of the __Create Rule__ dialog:
 
-{% include img.html src="../../images/AccessManagement05.png" alt="Create Rule" %}
+{% include img.html src="../../images/AccessManagement06.png" alt="Create Rule" %}
 
 - __Port__ - Define the port of the service for which you want to configure the given firewall rule.
 - __Protocol__ - Define a specific protocol to be allowed:
@@ -146,7 +146,7 @@ The following steps describe how to create access cards for servers:
      - _Custom expiration date_ - Defines a custom expiration using the provided date picker.
 8. Click the __Save__ button to confirm the access card's creation.
 
-{% include img.html src="../../images/AccessManagement06.png" alt="ResourceServer: Access Rights" %}
+{% include img.html src="../../images/AccessManagement07.png" alt="ResourceServer: Access Rights" %}
 
 ### Creating User Access Cards
 The following steps describe how to create access cards for users:
@@ -189,4 +189,4 @@ If multiple access cards are available to a users, they can select which access 
 
 The access cards become available to users as connection profiles in the context menu of Shieldoo's system tray icon.
 
-{% include img.html src="../../images/AccessManagement07.png" alt="Connecting to Shieldoo Using an Access Card" %}
+{% include img.html src="../../images/AccessManagement08.png" alt="Connecting to Shieldoo Using an Access Card" %}

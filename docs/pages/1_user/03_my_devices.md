@@ -19,11 +19,11 @@ The following steps describe how to view my devices in your Shieldoo Secure Netw
 1. Log in to your organization's Shieldoo Secure Network web application.
 2. Go to the __Connect Me__ \| __My Devices__ section.
 
-   {% include img.html src="../../images/MyDevices00.gif" alt="Connect Me | My Devices__" %}
+   {% include img.html src="../../images/MyDevices01.gif" alt="Connect Me | My Devices" %}
 
 3. It will provide the following view showing all your devices from which you connect to the Shieldoo Secure Network.
 
-   {% include img.html src="../../images/MyDevices01.png" alt="My Devices" %}
+   {% include img.html src="../../images/MyDevices02.png" alt="My Devices" %}
 
 4. Learn how to download & install the Shieldoo client and connect to the Shieldoo Secure Network, see the [Connect Me](/connect_me/) chapter.
 
