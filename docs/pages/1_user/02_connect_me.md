@@ -19,12 +19,12 @@ This chapter describes the initial steps to start using your Shieldoo Secure Net
 
 When your Shieldoo Secure Network was successfully created, and you were notified via email, this is the initial page requesting to log in using your existing Microsoft or Google account.
 
-{% include img.html src="../../images/ConnectMe02.png" alt="Login in Shieldoo web application" %}
+{% include img.html src="../../images/ConnectMe01.png" alt="Login in Shieldoo web application" %}
 
 {: .note }
 > After successful login to the Shieldoo web application, the user information is shown in the upper right corner (user name, type of user and icon).
 > 
-> ![](../../images/ConnectMe03.png)
+> ![](../../images/ConnectMe02.png)
 > 
 > By clicking on the arrow icon, it is possible to check __My Account__ details or to __Sign Out__ from the site.
 
@@ -36,7 +36,7 @@ When your Shieldoo Secure Network was successfully created, and you were notifie
 The following steps describe how to download and install the Shieldoo client:
 1. Go to the __Connect Me__ \| __Download & Install__ section.
 
-    {% include img.html src="../../images/ConnectMe01.gif" alt="Connect Me | Download & Install" %}
+    {% include img.html src="../../images/ConnectMe03.gif" alt="Connect Me | Download & Install" %}
 
 2. Choose the download link according to your operating system and click the arrow.
 
@@ -73,15 +73,15 @@ The following steps describe how to connect via Shieldoo client:
 
 1. Click on the __Shieldoo client icon__ in the system tray.
 
-    {% include img.html src="../../images/ConnectMe19.png" alt="Connect Me | Download & Install" %}
+    {% include img.html src="../../images/ConnectMe07.png" alt="Connect Me | Download & Install" %}
 
 2. Click on the __Sign-in__ option and log in with the same credentials you used to [log in to the Shieldoo web application](/connect_me/#login-to-shieldoo-web-application).
 
-    {% include img.html src="../../images/ConnectMe20.png" alt="Connect Me | Download & Install" %}
+    {% include img.html src="../../images/ConnectMe08.png" alt="Connect Me | Download & Install" %}
 
 3. Click on the __Connect__ option and connect to the network.
 
-    {% include img.html src="../../images/ConnectMe21.png" alt="Connect Me | Download & Install" %}
+    {% include img.html src="../../images/ConnectMe09.png" alt="Connect Me | Download & Install" %}
 
 After successfully connecting to the Shieldoo Secure Network, you can securely connect to any server and attached services in the network.
 
@@ -110,11 +110,11 @@ After successfully connecting to the Shieldoo Secure Network, you can securely c
 ### Connect to Servers
 To see the list of available servers, go to __Connect Me__ \| __My Access Rights__ in the Shieldoo web application.
 
-{% include img.html src="../../images/ConnectMe15.gif" alt="Connect Me | My Access Rights" %}
+{% include img.html src="../../images/ConnectMe13.gif" alt="Connect Me | My Access Rights" %}
 
 It will show the list of available servers with information about their names, IP addresses and descriptions. In the description, your admin tells you what a particular server is for and how to connect to it.
 
-{% include img.html src="../../images/ConnectMe16.png" alt="My Access Rights" %}
+{% include img.html src="../../images/ConnectMe14.png" alt="My Access Rights" %}
 
 ### Connect to Attached Services
 The method of connecting to an attached service depends on the type of the given service. The general procedure is described below.
@@ -123,7 +123,7 @@ To see the list of available attached services, go to __Connect Me__ \| __My Acc
 
 It will show the list of available servers. Then expand the row of a server with any attached services configured and connect to an attached service by utilizing the given attached service's IP address and the attached service's port. In the descriptions, your admi will tell you what a particular attached service is for and how to connect to it.
 
-{% include img.html src="../../images/ConnectMe17.gif" alt="List of Attached services" %}
+{% include img.html src="../../images/ConnectMe15.gif" alt="List of Attached services" %}
 
 {: .tip }
 > For specific instructions on how to set such a service, see the [Attached Services](/servers/#attached-services) section.

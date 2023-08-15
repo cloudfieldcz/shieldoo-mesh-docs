@@ -1,3 +1,4 @@
-<a href="{{ include.src }}" target="blank">
-    <img src="{{ include.src}}" alt="{{ include.src }}" width="300">
+<a href="#" title="{{ include.alt }}" onclick="event.preventDefault(); const win = window.open('{{ include.src }}', '_blank'); win.onload = function() { win.document.title = '{{ include.alt }}'; }">
+    <img src="{{ include.src }}" alt="{{ include.alt }}" width="300">
 </a>
+

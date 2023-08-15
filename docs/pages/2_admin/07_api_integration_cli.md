@@ -26,13 +26,13 @@ __Benefits of API integration (CLI)__
 
     [Shieldoo Github repository](https://github.com/shieldoo/terraform-provider-shieldoo){: .btn .btn-purple target="blank"}
 
-2. To configure __API integration (CLI) in the Shieldoo Secure Network web application__, follow these steps:
+2. To set up __API integration (CLI) in the Shieldoo Secure Network web application__, follow these steps:
 
-    {% include img.html src="../../images/APIIntegrationCLI01.gif" alt="API Integration (CLI)" %}
+    {% include img.html src="../../images/APIIntegrationCLI01.gif" alt="Configure API Integration (CLI)" %}   
 
     1. Log in to your organization’s Shieldoo Secure Network web application.
     2. Enable __Expert Mode__.  
-    - See the Access Management chapter to learn how to enable Expert Mode.  
+    - See the [Access Management](/access_management/) to learn how to enable Expert Mode.  
     3. Go to the __Settings & Logs__ \| __System Settings__ section.  
     4. In the Integration API (CLI) section, click the __configure__ button to open the settings dialog.  
     5. Enable __API integration (CLI)__.

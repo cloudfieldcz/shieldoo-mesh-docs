@@ -44,7 +44,7 @@ __Configuration Azure AD Group__
 ### Shieldoo Secure Network 
 In the last step, set up Identity integration in Shieldoo Secure Network.
 
- {% include img.html src="../../images/IdentityIntegration01.gif" alt="Identity integrations" %}
+ {% include img.html src="../../images/IdentityIntegration01.gif" alt="Configure Identity integrations" %}
 
 __Configuration Identity integration__
 1. Log in to your organization's Shieldoo Secure Network web application.
