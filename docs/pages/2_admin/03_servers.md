@@ -40,7 +40,7 @@ The following steps describe how to install a server in your Shieldoo Secure Net
 >If you create and install the server in Admin \| Expert mode, you can also configure and use following features:
 >- __Access Rights__ - For more information, see [below](/servers/#access-rights).
 >- __Attached Services__ - For more information, see [below](/servers/#attached-services).
->- __Automatic OS updates__ - For more information, see [below](/servers/#automatic-os-update).
+>- __Automatic OS updates__ - For more information, see [below](/servers/#automatic-os-updates).
 
 ## Editing Servers
 {: .d-inline-block }
@@ -52,16 +52,15 @@ The following steps describe how to install a server in your Shieldoo Secure Net
 
 This section describes how to edit a server's configuration after it has been created.
 
-1. Go to the __Network__ \| __Users__ section.
+1. Go to the __Network__ \| __Servers__ section.
 2. Open the context menu of the server whose configuration you want to edit:
 
    {% include img.html src="../../images/Servers02.gif" alt="Editing Servers" %}
 
 3. Use the provided options to edit the server:  
-   - __Detail__ - Open the installation instructions you used to install the server.
+   - __Detail__ - Open the current informations about the server and the installation instructions you used to install the server.
    - __Edit__ - Open the server's configuration, which you can edit.
-   - __Delete__ - Deletes the server from your Shieldoo Secure Network.  
-   No users or other servers will be able to connect to it.
+   - __Delete__ - Deletes the server from your Shieldoo Secure Network. No users or other servers will be able to connect to it.
 
 ## Status Servers
 {: .d-inline-block }
@@ -78,7 +77,7 @@ ADD TYPE OF CONNECTIONS: PEER-TO-PEER, RELAY, WEBSOCKET
 - Troubleshooting
 <-->
 
-The icons in the list of servers provide visual information about the current server status:
+The icons in the list of servers in the __Network__ \| __Servers__ section provide visual information about the current server status:
 - ![](../../images/Servers03.png)
 The server was never connected to the network, and other enabled nodes (users and servers) can not connect to this server. The server may not have been installed yet.
 - ![](../../images/Servers04.png)
@@ -89,6 +88,17 @@ The server is connected to the network in Websocket mode, and other enabled node
 The server is not connected to the network, and other enabled nodes (users and servers) can not connect to this server because of a network connection problem.
 - ![](../../images/Servers07.png)
 The server is not connected to the network, and other enabled nodes (users and servers) can not connect to this server. The server will need to be turned on, woken up or restarted.
+
+The current status for a specific server is also displayed in greater detail in the Server Detail section.
+
+{% include img.html src="../../images/Servers13.png" alt="Status Servers" %}
+
+1. Go to the __Network__ \| __Servers__ section.
+2. Open the context menu of the server whose configuration you want to edit:
+
+   {% include img.html src="../../images/Servers02.gif" alt="Editing Servers" %}
+
+3. Click on __Detail__ to open the current informations about the specific server.
 
 ## Access Rights
 {: .d-inline-block }
@@ -185,17 +195,21 @@ Additionally, for Linux OS, administrators can apply OS and security updates, si
    - __Restart the machine when OS updates were applied__ (only Linux).
    - __Select an hour in the day to apply updates__ (only Linux).
 
-<!-->
 ### Status Automatic OS updates
 
-Add description about STATUS in the list of servers: 
-- ok
-- OS update (puzzle)
-- Security update (shield)
-- error
+The icons in the list of servers in the __Network__ \| __Servers__ section provide visual information about the current status of the automatic OS udpates:
+- ![](../../images/Servers14.png) - The server operating system is up to date  
+- ![](../../images/Servers15.png) - The server operating system needs updates. Security updates: 37
+- ![](../../images/Servers16.png) - The server operating system needs updates. Other updates: 8
+- ![](../../images/Servers17.png) - Update process failed with error.
 
-Add description about STATURS in Detail of the server:
-- ...
-- ...
+The current status of automatic OS updates for a specific server is also displayed in greater detail in the Server Detail section.
 
-<-->
+{% include img.html src="../../images/Servers13.png" alt="Status automatic OS updates" %}
+
+1. Go to the __Network__ \| __Servers__ section.
+2. Open the context menu of the server whose configuration you want to edit:
+
+   {% include img.html src="../../images/Servers02.gif" alt="Editing Servers" %}
+
+3. Click on __Detail__ to open the current informations about the specific server.
