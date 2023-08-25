@@ -22,11 +22,11 @@ The following steps describe how to invite users to your Shieldoo network:
 1. Log in to your organization's Shieldoo Secure Network web application.
 2. Go to the __Network__ \| __Users__ section.
 3. Click on the __Invite Users__ button to open the Invite Users dialog.
-4. Configure the user invitation settings:
-    - __Available card templates__ - Selected a specific template card (only for Admin \| Expert mode) 
+4. Configure the user invitation settings: 
     - __Email__ -  Enter the user's email address you want to invite.
     - __Admin__ - Define whether or not to give the given user network administrator rights.
     - __Note__ - Describe the user. For example, their role in your organization.
+5. Click the __Invite__ button to invite users.
 6. Check that the given users have been added to the list of users in your network.
 7. Monitor the __INVITED__ label to find out whether or not the given users have accepted the invitation:  
     - Label displayed - Invitation still needs to be accepted.
@@ -38,6 +38,11 @@ The following steps describe how to invite users to your Shieldoo network:
 > ![](../../images/Users02.png)
 > - Use the provided search field for specific users by name or email address.  
 > ![](../../images/Users03.png)
+
+{: .note }
+>If you invite the users in Admin | Expert mode:
+>- you can use the single user or multiple users option.
+>- you must select a specific Available template card. For more information, see [Access Card Templates](/access_management/#access-card-templates/).
 
 ## Editing Users
 {: .d-inline-block }
@@ -75,8 +80,6 @@ The following steps describe how to view a user's detail:
 2. Go to the __Network__ \| __Users__ section.
 3. Open the context menu of the user for whose detail you want to view.
 3. Click on the __Detail__ option.
-
-{% include img.html src="../../images/Users06.png" alt="Option Detail User" %}
 
 {: .tip }
 >Another option to view the user's detail is to go to the __Network__ \| __Users__ section and click on the user name in the list of users.
