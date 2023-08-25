@@ -94,10 +94,7 @@ The current status for a specific server is also displayed in greater detail in 
 {% include img.html src="../../images/Servers13.png" alt="Status Servers" %}
 
 1. Go to the __Network__ \| __Servers__ section.
-2. Open the context menu of the server whose configuration you want to edit:
-
-   {% include img.html src="../../images/Servers02.gif" alt="Editing Servers" %}
-
+2. Open the context menu of the server whose configuration you want to edit.
 3. Click on __Detail__ to open the current informations about the specific server.
 
 ## Access Rights
@@ -208,8 +205,5 @@ The current status of automatic OS updates for a specific server is also display
 {% include img.html src="../../images/Servers13.png" alt="Status automatic OS updates" %}
 
 1. Go to the __Network__ \| __Servers__ section.
-2. Open the context menu of the server whose configuration you want to edit:
-
-   {% include img.html src="../../images/Servers02.gif" alt="Editing Servers" %}
-
+2. Open the context menu of the server whose configuration you want to edit.
 3. Click on __Detail__ to open the current informations about the specific server.
