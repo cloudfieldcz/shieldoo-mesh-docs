@@ -42,7 +42,7 @@ The following steps describe how to invite users to your Shieldoo network:
 {: .note }
 >If you invite the users in Admin | Expert mode:
 >- You can use the _Single user_ or _Multiple users_ option.
->- You must select a specific Available template card. For more information, see [Access Card Templates](/access_management/#access-card-templates/).
+>- You must select a specific Available template card. For more information, see [Access Card Templates](/access_management/#access-card-templates). 
 
 ## Editing Users
 {: .d-inline-block }

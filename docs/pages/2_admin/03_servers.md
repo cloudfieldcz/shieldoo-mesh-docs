@@ -38,9 +38,9 @@ The following steps describe how to install a server in your Shieldoo Secure Net
 
 {: .note }
 >If you create and install the server in Admin \| Expert mode, you can also configure and use the following features:
+>- __Automatic OS updates__ - For more information, see [below](/servers/#automatic-os-updates).
 >- __Access Rights__ - For more information, see [below](/servers/#access-rights).
 >- __Attached Services__ - For more information, see [below](/servers/#attached-services).
->- __Automatic OS updates__ - For more information, see [below](/servers/#automatic-os-updates).
 
 ## Editing Servers
 {: .d-inline-block }
@@ -89,9 +89,56 @@ The server is not connected to the network, and other enabled nodes (users and s
 - ![](../../images/Servers07.png)
 The server is not connected to the network, and other enabled nodes (users and servers) can not connect to this server. The server will need to be turned on, woken up or restarted.
 
-The current status for a specific server is also displayed in greater detail in the Server Detail section.
+The current status for a specific server is also displayed in greater detail in the Server Detail section:
 
 {% include img.html src="../../images/Servers13.png" alt="Status Servers" %}
+
+1. Go to the __Network__ \| __Servers__ section.
+2. Open the context menu of the server whose configuration you want to edit.
+3. Click on __Detail__ to open the current information about the specific server.
+
+## Automatic OS updates
+{: .d-inline-block }
+[__ADMIN \| EXPERT__](/admin_getting_started/#administration-modes){: style="color: white; text-decoration: none;"}
+{: .label .label-green }
+
+This section describes how to use Automatic OS updates of the servers.
+
+Shieldoo Secure Network supports automatic OS updates, bringing simplified management to your IT infrastructure. With the introduction of this functionality, administrators can now manage servers more efficiently.
+
+With Shieldoo Secure Network, administrators can __monitor the status of updates for all supported OS, i.e. Windows, Linux and MacOS__. 
+
+{% include img.html src="../../images/Servers11.png" alt="Automatic OS updates" %}
+
+Additionally, administrators can __apply OS and security updates for Linux OS__, simplifying their daily operations and increasing overall efficiency.
+
+{% include img.html src="../../images/Servers12.png" alt="Automatic OS updates for Linux" %}
+
+### Configuring Automatic OS updates
+1. Enable __Expert Mode__.
+   - See the [Access Management](/access_management/) chapter to learn how to enable Expert Mode.
+2. Go to the __Network__ \| __Servers__ section.
+3. Open the context menu of the server whose configuration you want to edit.
+4. Click on __Edit__ to open the server's settings.
+5. Go to the __General__ tab.
+6. Configure the Automatic OS update settings:
+   - __Automatic OS update__ (Windows, Linux, MacOs) - Enables automatic updates on the OS level. This option will start collecting data about updates. This means that you must apply update yourself.
+   - __Apply security OS updates__ (only Linux) - Enables automatic security updates on OS level (will be applied).
+   - __Apply all OS updates__ (only Linux) - Enables all automatic updates on OS level (will be applied).
+   - __Restart the machine when OS updates were applied__ (only Linux).
+   - __Select an hour in the day to apply updates__ (only Linux).
+
+### Status Automatic OS updates
+
+The icons in the list of servers in the __Network__ \| __Servers__ section provide visual information about the current status of the automatic OS updates:
+- ![](../../images/Servers14.png) - The server operating system is up to date.
+- ![](../../images/Servers15.png) - The server operating system needs updates (Security updates: 37).
+- ![](../../images/Servers16.png) - The server operating system needs updates (Other updates: 8).
+- ![](../../images/Servers17.png) - The update process failed with an error.
+
+The current status of automatic OS updates for a specific server is also displayed in greater detail in the Server Detail section:
+
+{% include img.html src="../../images/Servers13.png" alt="Status automatic OS updates" %}
 
 1. Go to the __Network__ \| __Servers__ section.
 2. Open the context menu of the server whose configuration you want to edit.
@@ -160,50 +207,3 @@ For a specific example of connecting to an attached service, see the [Sharing a 
 > Who can use attached services is governed by the same firewall rules as those that can be configured for servers.  
 > 
 > For more information, see the [Access Management](/access_management/) chapter.
-
-## Automatic OS updates
-{: .d-inline-block }
-[__ADMIN \| EXPERT__](/admin_getting_started/#administration-modes){: style="color: white; text-decoration: none;"}
-{: .label .label-green }
-
-This section describes how to use Automatic OS updates of the servers.
-
-Shieldoo Secure Network supports automatic OS updates, bringing simplified management to your IT infrastructure. With the introduction of this functionality, administrators can now manage servers more efficiently.
-
-With Shieldoo Secure Network, administrators can monitor the status of updates for all supported OS installed on servers, i.e. Windows, Linux and MacOS. 
-
-{% include img.html src="../../images/Servers11.png" alt="Automatic OS updates" %}
-
-Additionally, administrators can apply OS and security updates __for Linux OS__, simplifying their daily operations and increasing overall efficiency.
-
-{% include img.html src="../../images/Servers12.png" alt="Automatic OS updates for Linux" %}
-
-### Configuring Automatic OS updates
-1. Enable __Expert Mode__.
-   - See the [Access Management](/access_management/) chapter to learn how to enable Expert Mode.
-2. Go to the __Network__ \| __Servers__ section.
-3. Open the context menu of the server whose configuration you want to edit.
-4. Click on __Edit__ to open the server's settings.
-5. Go to the __General__ tab.
-6. Configure the Automatic OS update settings:
-   - __Automatic OS update__ (Windows, Linux, MacOs) - Enables automatic updates on the OS level. This option will start collecting data about updates. This means that you must apply update yourself.
-   - __Apply security OS updates__ (only Linux) - Enables automatic security updates on OS level (will be applied).
-   - __Apply all OS updates__ (only Linux) - Enables all automatic updates on OS level (will be applied).
-   - __Restart the machine when OS updates were applied__ (only Linux).
-   - __Select an hour in the day to apply updates__ (only Linux).
-
-### Status Automatic OS updates
-
-The icons in the list of servers in the __Network__ \| __Servers__ section provide visual information about the current status of the automatic OS updates:
-- ![](../../images/Servers14.png) - The server operating system is up to date  
-- ![](../../images/Servers15.png) - The server operating system needs updates. Security updates: 37
-- ![](../../images/Servers16.png) - The server operating system needs updates. Other updates: 8
-- ![](../../images/Servers17.png) - The update process failed with an error.
-
-The current status of automatic OS updates for a specific server is also displayed in greater detail in the Server Detail section:
-
-{% include img.html src="../../images/Servers13.png" alt="Status automatic OS updates" %}
-
-1. Go to the __Network__ \| __Servers__ section.
-2. Open the context menu of the server whose configuration you want to edit.
-3. Click on __Detail__ to open the current information about the specific server.
