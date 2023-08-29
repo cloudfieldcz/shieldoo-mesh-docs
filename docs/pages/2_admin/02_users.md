@@ -41,8 +41,8 @@ The following steps describe how to invite users to your Shieldoo network:
 
 {: .note }
 >If you invite the users in Admin | Expert mode:
->- you can use the single user or multiple users option.
->- you must select a specific Available template card. For more information, see [Access Card Templates](/access_management/#access-card-templates/).
+>- You can use the _Single user_ or _Multiple users_ option.
+>- You must select a specific Available template card. For more information, see [Access Card Templates](/access_management/#access-card-templates/).
 
 ## Editing Users
 {: .d-inline-block }
@@ -70,11 +70,11 @@ This section describes how to edit a user's configuration after they have been i
 [__ADMIN \| EXPERT__](/admin_getting_started/#administration-modes){: style="color: white; text-decoration: none;"}
 {: .label .label-green }
 
-This section describes how to view user detail that can be used to edit the user and manage user access control. For more information about Access Control, see the [Access Management](/access_management/) chapter.
+This section describes how to view user’s details that can be used to edit the user and manage user access control. For more information about Access Control, see the [Access Management](/access_management/) chapter.
 
 {% include img.html src="../../images/Users05.png" alt="Detail User" %}
 
-The following steps describe how to view a user's detail:
+The following steps describe how to view a user's details:
 1. Enable __Expert Mode__.
     - See the [Access Management](/access_management/) chapter to learn how to enable Expert Mode.
 2. Go to the __Network__ \| __Users__ section.
@@ -82,7 +82,7 @@ The following steps describe how to view a user's detail:
 3. Click on the __Detail__ option.
 
 {: .tip }
->Another option to view the user's detail is to go to the __Network__ \| __Users__ section and click on the user name in the list of users.
+>Another option to view the user's details is to go to the __Network__ \| __Users__ section and click on the user name in the list of users.
 
 ## Securing Users
 {: .d-inline-block }
