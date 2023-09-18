@@ -60,7 +60,7 @@ This section describes how to edit a server's configuration after it has been cr
 3. Use the provided options to edit the server:  
    - __Detail__ - Open the current information about the server and the installation instructions you used to install the server.
    - __Edit__ - Open the server's configuration, which you can edit.
-   - __Delete__ - Deletes the server from your Shieldoo Secure Network. No users or other servers will be able to connect to it.
+   - __Delete__ - Deletes the server from your Shieldoo Secure Network. No users or other servers will be able to connect to it and its configuration will be forever lost.
 
 ## Status Servers
 {: .d-inline-block }
