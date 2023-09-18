@@ -15,21 +15,23 @@ Users in a Shieldoo Secure Network are clients that can connect to servers.
 {: .d-inline-block }
 [__ADMIN__](/admin_getting_started/#administration-modes){: style="color: white; text-decoration: none;"}
 {: .label .label-purple }
+{: .d-inline-block }
+[__ADMIN \| EXPERT__](/admin_getting_started/#administration-modes){: style="color: white; text-decoration: none;"}
+{: .label .label-green }
 The following steps describe how to invite users to your Shieldoo network:
 1. Log in to your organization's Shieldoo Secure Network web application.
 2. Go to the __Network__ \| __Users__ section.
 3. Click on the __Invite Users__ button to open the Invite Users dialog.
-4. Configure the user invitation settings:  
+4. Configure the user invitation settings: 
     - __Email__ -  Enter the user's email address you want to invite.
     - __Admin__ - Define whether or not to give the given user network administrator rights.
     - __Note__ - Describe the user. For example, their role in your organization.
-5. Repeat steps 3-4 until you have configured all the users you want to invite.
+5. Click the __Invite__ button to invite users.
 6. Check that the given users have been added to the list of users in your network.
 7. Monitor the __INVITED__ label to find out whether or not the given users have accepted the invitation:  
     - Label displayed - Invitation still needs to be accepted.
     - Label not displayed - Invitation accepted.
 8. Let the users know they can [connect to your organization's network](/connect_me/) as soon as they accept the invitation.
-9. Continue by [securing your users](/users/#securing-users).
 
 {: .tip }
 > - Use the __Invited__ button to only display users who have yet to accept their invitations.  
@@ -37,12 +39,21 @@ The following steps describe how to invite users to your Shieldoo network:
 > - Use the provided search field for specific users by name or email address.  
 > ![](../../images/Users03.png)
 
+{: .note }
+>If you invite the users in Admin | Expert mode:
+>- You can use the _Single user_ or _Multiple users_ option.
+>- You have to select a specific Available template card. For more information, see [Access Card Templates](/access_management/#access-card-templates). 
+
 ## Editing Users
 {: .d-inline-block }
 [__ADMIN__](/admin_getting_started/#administration-modes){: style="color: white; text-decoration: none;"}
 {: .label .label-purple }
-This section describes how to edit a user's configuration after they have been invited:
-1. Open the context menu of the user whose configuration you want to edit:  
+{: .d-inline-block }
+[__ADMIN \| EXPERT__](/admin_getting_started/#administration-modes){: style="color: white; text-decoration: none;"}
+{: .label .label-green }
+This section describes how to edit a user's configuration after they have been invited.
+1. Go to the __Network__ \| __Users__ section.
+2. Open the context menu of the user whose configuration you want to edit:  
 
     {% include img.html src="../../images/Users04.gif" alt="Editing Users" %}
 
@@ -52,6 +63,26 @@ This section describes how to edit a user's configuration after they have been i
    - __Revoke admin rights__ - Removes the network administrator rights from the given user.
    - __Delete__ - Deletes the user from your Shieldoo Secure Network.  
    The user will no longer be able to connect to the network.
+
+
+## Detail Users
+{: .d-inline-block }
+[__ADMIN \| EXPERT__](/admin_getting_started/#administration-modes){: style="color: white; text-decoration: none;"}
+{: .label .label-green }
+
+This section describes how to view user’s details that can be used to edit the user and manage user access control. For more information about Access Control, see the [Access Management](/access_management/) chapter.
+
+{% include img.html src="../../images/Users05.png" alt="Detail User" %}
+
+The following steps describe how to view a user's details:
+1. Enable __Expert Mode__.
+    - See the [Access Management](/access_management/) chapter to learn how to enable Expert Mode.
+2. Go to the __Network__ \| __Users__ section.
+3. Open the context menu of the user for whose detail you want to view.
+3. Click on the __Detail__ option.
+
+{: .tip }
+>Another option to view the user's details is to go to the __Network__ \| __Users__ section and click on the user name in the list of users.
 
 ## Securing Users
 {: .d-inline-block }

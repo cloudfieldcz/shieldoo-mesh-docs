@@ -139,12 +139,15 @@ The following steps describe how to create access cards for servers:
    - __IP Address__ - Skip this setting unless the IP address of the given server has changed since you created it.
    - __Firewall configuration__ - Select one of the prepared firewalls.
    - __Groups__ - Map the server with all the desired groups.
-   - __Punch back__ - Enable this check box if you want the node that you are trying to reach to connect back to your if your <a href="https://en.wikipedia.org/wiki/UDP_hole_punching" target="blank">UDP hole punching<a/> fails. This is useful if a node is behind, for example, a symmetric NAT.
-   - __Use websocket gateway__ - Check this check box if you want to use the Shieldoo websocket gateway to enforce the connection even from a site where, for example, UDP is not allowed.
    - __Valid Till__ - Define how long the access card will remain valid:
      - _Subscription lifetime_ - Defines that the access card will remain valid if your organisation subscribes to Shieldoo.
      - _Custom expiration date_ - Defines a custom expiration using the provided date picker.
 8. Click the __Save__ button to confirm the access card's creation.
+
+<!-->
+   - __Punch back__ - Enable this check box if you want the node that you are trying to reach to connect back to you when your <a href="https://en.wikipedia.org/wiki/UDP_hole_punching" target="blank">UDP hole punching<a/> fails. This is useful if a node is behind a symmetric NAT, for example.
+   - __Use websocket gateway__ - Check this check box if you want to use the Shieldoo websocket gateway to establish a connection even from a site with restricted network conditions where UDP is not allowed, for example.
+   <-->
 
 {% include img.html src="../../images/AccessManagement07.png" alt="ResourceServer: Access Rights" %}
 
