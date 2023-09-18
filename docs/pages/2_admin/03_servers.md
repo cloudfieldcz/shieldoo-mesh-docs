@@ -79,7 +79,7 @@ ADD TYPE OF CONNECTIONS: PEER-TO-PEER, RELAY, WEBSOCKET
 
 The icons in the list of servers in the __Network__ \| __Servers__ section provide visual information about the current server status:
 - ![](../../images/Servers03.png)
-The server was never connected to the network, and other enabled nodes (users and servers) can not connect to this server. The server may not have been installed yet.
+The server has never been connected to the network, and other enabled nodes (users and servers) cannot connect to this server. The server may not have been installed yet.
 - ![](../../images/Servers04.png)
 The server is connected to the network in Peer-to-Peer mode or Relay mode, and other enabled nodes (users and servers) can connect to this server.
 - ![](../../images/Servers05.png)
