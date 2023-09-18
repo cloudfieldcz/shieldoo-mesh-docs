@@ -146,7 +146,7 @@ The following steps describe how to create access cards for servers:
 
 <!-->
    - __Punch back__ - Enable this check box if you want the node that you are trying to reach to connect back to you when your <a href="https://en.wikipedia.org/wiki/UDP_hole_punching" target="blank">UDP hole punching<a/> fails. This is useful if a node is behind a symmetric NAT, for example.
-   - __Use websocket gateway__ - Check this check box if you want to use the Shieldoo websocket gateway to enforce the connection even from a site where, for example, UDP is not allowed.
+   - __Use websocket gateway__ - Check this check box if you want to use the Shieldoo websocket gateway to establish a connection even from a site with restricted network conditions where UDP is not allowed, for example.
    <-->
 
 {% include img.html src="../../images/AccessManagement07.png" alt="ResourceServer: Access Rights" %}
