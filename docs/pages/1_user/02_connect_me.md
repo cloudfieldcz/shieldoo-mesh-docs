@@ -100,12 +100,13 @@ After successfully connecting to the Shieldoo Secure Network, you can securely c
 >- Update Shieldoo Client - _If a new client version is available, you can update it using this option_.
 >- Disconnect - _Use this option to disconnect from the network without losing your login credentials_.
 >- Specify Shieldoo network - _Use this option to change the network URL parameter_.
+>- Enabled Full tunnel mode for communication - _The use option allows the feature of an anonymous VPN (you are masked on the Internet under the Lighthouse IP address)._
 >- Favorite Shieldoo Networks - _Use this option to save a list of your networks and switch between them._
->- Enable Auto Start - _The use option allows the client to start automatically when the OS boots._ 
->- Enabled automatic disconnect - _The use option allows you to save costs because, after 20 minutes of inactivity to connect to any server or access service, the client will automatically disconnect from the network._
+>- Enabled Autostart - _The use option allows the client to start automatically when the OS boots._ 
+>- Enabled Auto-disconnect - _The use option allows you to save costs because, after 20 minutes of inactivity to connect to any server or access service, the client will automatically disconnect from the network._
 >- My access rights on the Shieldoo network - _Use this option to redirect to a list of my access rights._
 >- Version - _Displays the currently installed version of the client._
->- Exit - _Use option to exit the client._
+>- Exit - _Use this option to exit the client._
 
 ### Connect to Servers
 To see the list of available servers, go to __Connect Me__ \| __My Access Rights__ in the Shieldoo web application.
